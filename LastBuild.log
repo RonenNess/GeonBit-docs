@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="C:\Projects\GeonBit\geonbit.shfbproj" started="6/24/2017 12:32:45 AM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+    C:\Projects\GeonBit
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2016.9.17.0
+Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Projects\GeonBit\GeonBit\bin\DesktopGL\AnyCPU\Release\GeonBit.dll
+    Found assembly &#39;C:\Projects\GeonBit\GeonBit\bin\DesktopGL\AnyCPU\Release\GeonBit.dll&#39;
+Source: C:\Projects\GeonBit\GeonBit\bin\DesktopGL\AnyCPU\Release\GeonBit.xml
+
+Copying XML comments files
+    C:\Projects\GeonBit\GeonBit\bin\DesktopGL\AnyCPU\Release\GeonBit.XML -&gt; C:\Projects\GeonBit\Help\Working\GeonBit.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0234
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0171
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
+Build started 6/24/2017 12:32:48 AM.
+Project &quot;C:\Projects\GeonBit\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 18 namespaces, 137 types, and 1201 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\Projects\GeonBit\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
+    Last step completed in 00:00:01.4234
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
+Build started 6/24/2017 12:32:49 AM.
+Project &quot;C:\Projects\GeonBit\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+TransformManifest:
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+    Unique name M_GeonBit_Core_Transformations__ctor_1 generated for M:GeonBit.Core.Transformations.#ctor(GeonBit.Core.Transformations)
+    Unique name M_GeonBit_Core_Graphics_CompositeModelEntity__ctor_1 generated for M:GeonBit.Core.Graphics.CompositeModelEntity.#ctor(System.String)
+    Unique name M_GeonBit_Core_Graphics_CompositeModelEntity_GetMesh_1 generated for M:GeonBit.Core.Graphics.CompositeModelEntity.GetMesh(System.String)
+    Unique name M_GeonBit_Core_Graphics_GraphicsManager_DrawTexture_1 generated for M:GeonBit.Core.Graphics.GraphicsManager.DrawTexture(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Rectangle,Microsoft.Xna.Framework.Vector2,System.Single,Microsoft.Xna.Framework.Vector2,System.Nullable{Microsoft.Xna.Framework.Color})
+    Unique name M_GeonBit_Core_Graphics_ModelEntity__ctor_1 generated for M:GeonBit.Core.Graphics.ModelEntity.#ctor(System.String)
+    Unique name M_GeonBit_Core_Graphics_SimpleModelEntity__ctor_1 generated for M:GeonBit.Core.Graphics.SimpleModelEntity.#ctor(System.String)
+    Unique name M_GeonBit_Core_Graphics_SkinnedModelEntity__ctor_1 generated for M:GeonBit.Core.Graphics.SkinnedModelEntity.#ctor(System.String)
+    Unique name M_GeonBit_Core_Graphics_SpriteEntity__ctor_1 generated for M:GeonBit.Core.Graphics.SpriteEntity.#ctor(GeonBit.Core.Graphics.SpriteSheet,Microsoft.Xna.Framework.Graphics.Texture2D,System.Boolean)
+    Unique name M_GeonBit_Core_Graphics_SpriteEntity_SetStep_1 generated for M:GeonBit.Core.Graphics.SpriteEntity.SetStep(System.String)
+    Unique name M_GeonBit_Core_Graphics_SpriteSheet__ctor_1 generated for M:GeonBit.Core.Graphics.SpriteSheet.#ctor(Microsoft.Xna.Framework.Point)
+    Unique name M_GeonBit_Core_Graphics_SpriteSheet_GetStep_1 generated for M:GeonBit.Core.Graphics.SpriteSheet.GetStep(System.String)
+    Unique name M_GeonBit_Core_Graphics_Materials_AlphaTestMaterial__ctor_1 generated for M:GeonBit.Core.Graphics.Materials.AlphaTestMaterial.#ctor(GeonBit.Core.Graphics.Materials.AlphaTestMaterial)
+    Unique name M_GeonBit_Core_Graphics_Materials_AlphaTestMaterial__ctor_2 generated for M:GeonBit.Core.Graphics.Materials.AlphaTestMaterial.#ctor(Microsoft.Xna.Framework.Graphics.AlphaTestEffect,System.Boolean)
+    Unique name M_GeonBit_Core_Graphics_Materials_BasicMaterial__ctor_1 generated for M:GeonBit.Core.Graphics.Materials.BasicMaterial.#ctor(GeonBit.Core.Graphics.Materials.BasicMaterial)
+    Unique name M_GeonBit_Core_Graphics_Materials_BasicMaterial__ctor_2 generated for M:GeonBit.Core.Graphics.Materials.BasicMaterial.#ctor(Microsoft.Xna.Framework.Graphics.BasicEffect,System.Boolean)
+    Unique name M_GeonBit_Core_Graphics_Materials_SkinnedMaterial__ctor_1 generated for M:GeonBit.Core.Graphics.Materials.SkinnedMaterial.#ctor(Microsoft.Xna.Framework.Graphics.SkinnedEffect,System.Boolean)
+    Unique name M_GeonBit_Core_Graphics_Materials_SkyboxMaterial__ctor_1 generated for M:GeonBit.Core.Graphics.Materials.SkyboxMaterial.#ctor(System.String,System.Boolean)
+    Unique name M_GeonBit_Core_Graphics_Materials_SpriteMaterial__ctor_1 generated for M:GeonBit.Core.Graphics.Materials.SpriteMaterial.#ctor(Microsoft.Xna.Framework.Graphics.AlphaTestEffect,System.Boolean)
+    Unique name M_GeonBit_Core_Physics_PhysicalBody_ApplyForce_1 generated for M:GeonBit.Core.Physics.PhysicalBody.ApplyForce(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_Core_Physics_PhysicalBody_ApplyImpulse_1 generated for M:GeonBit.Core.Physics.PhysicalBody.ApplyImpulse(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_Core_Physics_PhysicsDebugDraw_DrawLine_1 generated for M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)
+    Unique name M_GeonBit_Core_Physics_PhysicsWorld_Raycast_1 generated for M:GeonBit.Core.Physics.PhysicsWorld.Raycast(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Boolean)
+    Unique name M_GeonBit_Core_Sound_SoundPlayer__ctor_1 generated for M:GeonBit.Core.Sound.SoundPlayer.#ctor(System.String)
+    Unique name M_GeonBit_ECS_Components_Graphics_BillboardRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.BillboardRenderer.#ctor(Microsoft.Xna.Framework.Graphics.Texture2D)
+    Unique name M_GeonBit_ECS_Components_Graphics_BillboardRenderer__ctor_2 generated for M:GeonBit.ECS.Components.Graphics.BillboardRenderer.#ctor(System.String)
+    Unique name M_GeonBit_ECS_Components_Graphics_Camera_GetRay_1 generated for M:GeonBit.ECS.Components.Graphics.Camera.GetRay(Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_ECS_Components_Graphics_CompositeModelRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.CompositeModelRenderer.#ctor(System.String)
+    Unique name M_GeonBit_ECS_Components_Graphics_CompositeModelRenderer_GetMesh_1 generated for M:GeonBit.ECS.Components.Graphics.CompositeModelRenderer.GetMesh(System.String)
+    Unique name M_GeonBit_ECS_Components_Graphics_ModelMeshRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.ModelMeshRenderer.#ctor(System.String,System.Int32)
+    Unique name M_GeonBit_ECS_Components_Graphics_ModelMeshRenderer__ctor_2 generated for M:GeonBit.ECS.Components.Graphics.ModelMeshRenderer.#ctor(System.String,System.String)
+    Unique name M_GeonBit_ECS_Components_Graphics_ModelRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.ModelRenderer.#ctor(System.String)
+    Unique name M_GeonBit_ECS_Components_Graphics_SceneBackground__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.SceneBackground.#ctor(System.String)
+    Unique name M_GeonBit_ECS_Components_Graphics_SimpleModelRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.SimpleModelRenderer.#ctor(System.String)
+    Unique name M_GeonBit_ECS_Components_Graphics_SkinnedModelRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.SkinnedModelRenderer.#ctor(System.String)
+    Unique name M_GeonBit_ECS_Components_Graphics_SpriteRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.SpriteRenderer.#ctor(GeonBit.Core.Graphics.SpriteSheet,Microsoft.Xna.Framework.Graphics.Texture2D,System.Boolean)
+    Unique name M_GeonBit_ECS_Components_Graphics_SpriteRenderer__ctor_2 generated for M:GeonBit.ECS.Components.Graphics.SpriteRenderer.#ctor(GeonBit.Core.Graphics.SpriteSheet,System.String,System.Boolean)
+    Unique name M_GeonBit_ECS_Components_Graphics_SpriteRenderer_SetStep_1 generated for M:GeonBit.ECS.Components.Graphics.SpriteRenderer.SetStep(System.String)
+    Unique name M_GeonBit_ECS_Components_Particles_ParticleSystem__ctor_1 generated for M:GeonBit.ECS.Components.Particles.ParticleSystem.#ctor(GeonBit.ECS.Components.Particles.ParticleType)
+    Unique name M_GeonBit_ECS_Components_Particles_Animators_AnimatorUtils_RandVector_1 generated for M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandVector(System.Random,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_ECS_Components_Particles_Animators_ColorAnimator__ctor_1 generated for M:GeonBit.ECS.Components.Particles.Animators.ColorAnimator.#ctor(GeonBit.ECS.Components.Particles.Animators.BaseAnimatorProperties,System.Single)
+    Unique name M_GeonBit_ECS_Components_Particles_Animators_RotationAnimator__ctor_1 generated for M:GeonBit.ECS.Components.Particles.Animators.RotationAnimator.#ctor(GeonBit.ECS.Components.Particles.Animators.BaseAnimatorProperties,Microsoft.Xna.Framework.Vector3,System.Single)
+    Unique name M_GeonBit_ECS_Components_Particles_Animators_RotationAnimator__ctor_2 generated for M:GeonBit.ECS.Components.Particles.Animators.RotationAnimator.#ctor(GeonBit.ECS.Components.Particles.Animators.BaseAnimatorProperties,System.Single,System.Single)
+    Unique name M_GeonBit_ECS_Components_Particles_Animators_ScaleAnimator__ctor_1 generated for M:GeonBit.ECS.Components.Particles.Animators.ScaleAnimator.#ctor(GeonBit.ECS.Components.Particles.Animators.BaseAnimatorProperties,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+    Unique name M_GeonBit_ECS_Components_Physics_CylinderInfo__ctor_1 generated for M:GeonBit.ECS.Components.Physics.CylinderInfo.#ctor(System.Single,System.Single,GeonBit.Core.Physics.CollisionShapes.CylinderDirectionAxis)
+    Unique name M_GeonBit_ECS_Components_Physics_PhysicalBody_ApplyForce_1 generated for M:GeonBit.ECS.Components.Physics.PhysicalBody.ApplyForce(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_ECS_Components_Physics_PhysicalBody_ApplyImpulse_1 generated for M:GeonBit.ECS.Components.Physics.PhysicalBody.ApplyImpulse(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_ECS_Components_Sound_SoundEffect__ctor_1 generated for M:GeonBit.ECS.Components.Sound.SoundEffect.#ctor(System.String)
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Projects\GeonBit\Help\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03
+    Last step completed in 00:00:01.2680
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0561
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 6/24/2017 12:32:51 AM.
+Project &quot;C:\Projects\GeonBit\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+GenerateIntermediateTOC:
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Projects\GeonBit\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.48
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.7173
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.1780
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Projects\GeonBit\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0160
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildTopics.proj]
+Build started 6/24/2017 12:32:52 AM.
+Project &quot;C:\Projects\GeonBit\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+BuildTopics:
+  BuildAssembler (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.GeonBitGame.ShowDiagnosticData(System.Boolean,GeonBit.UI.Entities.Anchor)] Missing &lt;param name=&quot;show&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.GeonBitGame.ShowDiagnosticData(System.Boolean,GeonBit.UI.Entities.Anchor)] Missing &lt;param name=&quot;position&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.GeonBitGame.ShowDiagnosticData(System.Boolean,GeonBit.UI.Entities.Anchor)] Unknown reference link target &#39;T:GeonBit.UI.Entities.Anchor&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.GeonBitGame.ShowDiagnosticData(System.Boolean,GeonBit.UI.Entities.Anchor)] Unknown reference link target &#39;T:GeonBit.UI.Entities.Anchor&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Transformations.#ctor(GeonBit.Core.Transformations)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Graphics.MeshEntity.GetMaterial(System.Int32)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Graphics.ModelEntity.GetMaterial(System.String,System.Int32)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Graphics.Node.BuildTransformationsMatrix] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Graphics.Node.SetWorldTransforms(Microsoft.Xna.Framework.Matrix@)] Missing &lt;param name=&quot;world&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Graphics.SpriteSheet.#ctor(Microsoft.Xna.Framework.Point)] Missing &lt;param name=&quot;stepsCount&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Graphics.Materials.DefaultMaterialsFactory.GetDefaultMaterial(Microsoft.Xna.Framework.Graphics.Effect)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Graphics.Materials.MaterialAPI.Apply(Microsoft.Xna.Framework.Matrix)] Missing &lt;param name=&quot;worldMatrix&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Graphics.Materials.MaterialAPI.SetBoneTransforms(Microsoft.Xna.Framework.Matrix[])] Missing &lt;param name=&quot;bones&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Graphics.Materials.SkinnedMaterial.SetBoneTransforms(Microsoft.Xna.Framework.Matrix[])] Missing &lt;param name=&quot;bones&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;P:BulletSharp.DebugDraw.DebugMode&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawAabb(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawArc(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Boolean)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawArc(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Boolean,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawBox(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawBox(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCapsule(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCone(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawContactPoint(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Int32,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCylinder(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3,BulletSharp.Math.Vector3,BulletSharp.Math.Vector3)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawPlane(BulletSharp.Math.Vector3@,System.Single,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSphere(System.Single,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSphere(BulletSharp.Math.Vector3@,System.Single,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSpherePatch(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSpherePatch(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTransform(BulletSharp.Math.Matrix@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTriangle(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTriangle(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.ReportErrorWarning(System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;P:BulletSharp.DebugDraw.DebugMode&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawAabb(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawArc(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Boolean)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawArc(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Boolean,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawBox(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawBox(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCapsule(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCone(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawContactPoint(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Int32,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCylinder(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3,BulletSharp.Math.Vector3,BulletSharp.Math.Vector3)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawPlane(BulletSharp.Math.Vector3@,System.Single,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSphere(System.Single,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSphere(BulletSharp.Math.Vector3@,System.Single,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSpherePatch(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSpherePatch(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTransform(BulletSharp.Math.Matrix@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTriangle(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTriangle(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.ReportErrorWarning(System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawAabb(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawArc(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Boolean)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawArc(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Boolean,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawBox(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawBox(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCapsule(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCone(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawContactPoint(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Int32,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCylinder(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3,BulletSharp.Math.Vector3,BulletSharp.Math.Vector3)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawPlane(BulletSharp.Math.Vector3@,System.Single,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSphere(System.Single,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSphere(BulletSharp.Math.Vector3@,System.Single,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSpherePatch(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSpherePatch(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTransform(BulletSharp.Math.Matrix@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTriangle(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTriangle(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.ReportErrorWarning(System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawAabb(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawArc(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Boolean)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawArc(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Boolean,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawBox(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawBox(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCapsule(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCone(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawContactPoint(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Int32,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawCylinder(System.Single,System.Single,System.Int32,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3,BulletSharp.Math.Vector3,BulletSharp.Math.Vector3)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawPlane(BulletSharp.Math.Vector3@,System.Single,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSphere(System.Single,BulletSharp.Math.Matrix@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSphere(BulletSharp.Math.Vector3@,System.Single,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSpherePatch(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawSpherePatch(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Single,System.Single,System.Single,System.Single,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTransform(BulletSharp.Math.Matrix@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTriangle(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawTriangle(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;M:BulletSharp.DebugDraw.ReportErrorWarning(System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;P:BulletSharp.DebugDraw.DebugMode&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GeonBit.Core.Physics.PhysicsDebugDraw] Unknown reference link target &#39;P:BulletSharp.DebugDraw.DebugMode&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawContactPoint] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawContactPoint(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Int32,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawContactPoint] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawContactPoint] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawContactPoint(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,System.Single,System.Int32,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawContactPoint] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3,BulletSharp.Math.Vector3,BulletSharp.Math.Vector3)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3,BulletSharp.Math.Vector3,BulletSharp.Math.Vector3)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;M:BulletSharp.DebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Overload:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine] Unknown reference link target &#39;T:BulletSharp.DebugDraw&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:GeonBit.Core.Physics.PhysicsDebugDraw.DebugMode] Unknown reference link target &#39;T:BulletSharp.DebugDrawModes&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:GeonBit.Core.Physics.PhysicsDebugDraw.DebugMode] Unknown reference link target &#39;P:BulletSharp.IDebugDraw.DebugMode&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:GeonBit.Core.Physics.PhysicsDebugDraw.DebugMode] Unknown reference link target &#39;T:BulletSharp.DebugDrawModes&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:GeonBit.Core.Physics.PhysicsDebugDraw.DebugMode] Unknown reference link target &#39;P:BulletSharp.IDebugDraw.DebugMode&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)] Unknown reference link target &#39;M:BulletSharp.IDebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)] Unknown reference link target &#39;M:BulletSharp.IDebugDraw.Draw3dText(BulletSharp.Math.Vector3@,System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawContactPoint(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,System.Int32,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;pointOnB&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawContactPoint(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,System.Int32,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;normalOnB&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawContactPoint(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,System.Int32,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;distance&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawContactPoint(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,System.Int32,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;lifeTime&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawContactPoint(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Single,System.Int32,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;color&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawDebugWorld(BulletSharp.DynamicsWorld)] Unknown reference link target &#39;T:BulletSharp.DynamicsWorld&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawDebugWorld(BulletSharp.DynamicsWorld)] Unknown reference link target &#39;T:BulletSharp.DynamicsWorld&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)] Unknown reference link target &#39;M:BulletSharp.IDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)] Unknown reference link target &#39;M:BulletSharp.IDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.ReportErrorWarning(System.String)] Unknown reference link target &#39;M:BulletSharp.IDebugDraw.ReportErrorWarning(System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.ReportErrorWarning(System.String)] Unknown reference link target &#39;M:BulletSharp.IDebugDraw.ReportErrorWarning(System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.Raycast(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,GeonBit.ECS.Components.Physics.PhysicalBody)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.Raycast(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Boolean)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.RemoveBody(GeonBit.Core.Physics.PhysicalBody)] Missing &lt;param name=&quot;body&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.SetGravity(Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;gravity&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToBullet.Matrix(Microsoft.Xna.Framework.Matrix)] Unknown reference link target &#39;T:BulletSharp.Math.Matrix&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToBullet.Matrix(Microsoft.Xna.Framework.Matrix)] Unknown reference link target &#39;T:BulletSharp.Math.Matrix&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToBullet.Vector(Microsoft.Xna.Framework.Vector3)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToBullet.Vector(Microsoft.Xna.Framework.Vector3)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToBullet.Vectors(Microsoft.Xna.Framework.Vector3[])] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToBullet.Vectors(Microsoft.Xna.Framework.Vector3[])] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToMonoGame.Matrix(BulletSharp.Math.Matrix)] Unknown reference link target &#39;T:BulletSharp.Math.Matrix&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToMonoGame.Matrix(BulletSharp.Math.Matrix)] Unknown reference link target &#39;T:BulletSharp.Math.Matrix&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToMonoGame.Vector(BulletSharp.Math.Vector3)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToMonoGame.Vector(BulletSharp.Math.Vector3)] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToMonoGame.Vectors(BulletSharp.Math.Vector3[])] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToMonoGame.Vectors(BulletSharp.Math.Vector3[])] Unknown reference link target &#39;T:BulletSharp.Math.Vector3&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.GameObject.AddComponentDebug(GeonBit.ECS.Components.BaseComponent)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.GameObject.CreateOctree(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.UInt32)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.GameObject.RemoveComponent(GeonBit.ECS.Components.BaseComponent)] Missing &lt;param name=&quot;component&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:GeonBit.ECS.GameScene.UserInterface] Unknown reference link target &#39;T:GeonBit.UI.UserInterface&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:GeonBit.ECS.GameScene.UserInterface] Unknown reference link target &#39;T:GeonBit.UI.UserInterface&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GeonBit.ECS.SceneNodeType] Missing &lt;summary&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.BaseComponent.SendMessage(System.String)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:GeonBit.ECS.Components.Particles.Animators] Missing &lt;summary&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.CalcTransitionPercent(System.Single,System.Single)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.CalcTransitionPercent(System.Single,System.Single)] Missing &lt;param name=&quot;timeAnimated&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.CalcTransitionPercent(System.Single,System.Single)] Missing &lt;param name=&quot;maxTime&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandColor(System.Random,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandColor(System.Random,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;random&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandColor(System.Random,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;baseColor&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandColor(System.Random,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;colorJitter&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandColor2(System.Random,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandColor2(System.Random,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;random&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandColor2(System.Random,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;minColor&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandColor2(System.Random,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)] Missing &lt;param name=&quot;maxColor&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandDirection(System.Random,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandDirection(System.Random,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;random&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandDirection(System.Random,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;baseVector&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandDirection(System.Random,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;randDir&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandVector(System.Random,Microsoft.Xna.Framework.Vector3)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandVector(System.Random,Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;random&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandVector(System.Random,Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;maxVector&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandVector(System.Random,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandVector(System.Random,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;random&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandVector(System.Random,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;minVector&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Particles.Animators.AnimatorUtils.RandVector(System.Random,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;maxVector&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Physics.CollisionGroups.AND(System.Int16[])] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Physics.CollisionGroups.AND(System.Int16[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Physics.CollisionGroups.OR(System.Int16[])] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.ECS.Components.Physics.CollisionGroups.OR(System.Int16[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.Application.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.ConfigStorage.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.Diagnostic.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.Diagnostic.Update(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.GameFiles.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.GameInput.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.GameInput.GetKeyboardInput(System.String,System.Int32@)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.GraphicsManager.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.IManager.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.IManager.Update(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.Plugins.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.Prototypes.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.SoundManager.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.TimeManager.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+  Processed 1393 topic(s)
+  287 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+  SaveComponent: Waiting for the document writer task to finish (98 Help1 API file(s) remaining)...
+  SaveComponent: Waiting for the document writer task to finish (2 Website API file(s) remaining)...
+Done Building Project &quot;C:\Projects\GeonBit\Help\Working\BuildTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.28
+    Last step completed in 00:00:33.5366
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0090
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - ExtractHtmlInfo.proj]
+Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+Sandcastle Help File Builder and Tools, version 2016.9.17.0
+Copyright c 2006-2016, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1
+Processed 1393 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Projects\GeonBit\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\Projects\GeonBit\Help\Working\Documentation.hhc
+
+Processing website files in C:\Projects\GeonBit\Help\Working\Output\Website
+Processed 1393 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\Projects\GeonBit\Help\Working\WebKI.xml
+Saving website table of contents to C:\Projects\GeonBit\Help\Working\WebTOC.xml
+    Last step completed in 00:00:10.9513
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00.1783
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0150
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - Build1xHelpFile.proj]
+Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 4 seconds
+  
+  1,395	Topics
+  
+  17,928	Local links
+  
+  2,742	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\Documentation.chm, 1,141,302 bytes
+  
+  Compression decreased file by 10,139,272 bytes.
+  
+    Last step completed in 00:00:05.5375
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:05.7960
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 1000 files
+Copied 1500 files
+Copied 1883 files for the website content
+    Last step completed in 00:00:01.6914
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.7462
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 6/24/2017 12:33:50 AM.  Total time: 00:01:05.0614
+
+</buildStep>
+</shfbBuild>
