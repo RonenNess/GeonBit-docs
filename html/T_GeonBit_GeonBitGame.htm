@@ -16,20 +16,14 @@
             Create the main game class.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_GeonBitGame_DebugMode.htm">DebugMode</a></td><td><div class="summary">
-            Should we run in debug mode? This will show and render some extra data, but should not
-            use for released games.
-            Note: you must set this property before Initialize is called, eg inside the constructor.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_GeonBitGame_EnableVsync.htm">EnableVsync</a></td><td><div class="summary">
-            Should we enable vsync to sync FPS with monitor refresh rate?
-            Note: you must set this property before Initialize is called, eg inside the constructor.
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_GeonBitGame_InitParams.htm">InitParams</a></td><td><div class="summary">
+            Initialize params you can setup during the constructor of your game class.
+            These params affect how GeonBit init itself. Most of these settings can be changed later manually.
+            Note: after constructor is done, this object is deleted and replaced with null.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_GeonBitGame_Resources.htm">Resources</a></td><td><div class="summary">
             Get GeonBit custom content class.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_GeonBitGame_UiEnabled.htm">UiEnabled</a></td><td><div class="summary">
             Get if geonbit UI currently enabled
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_GeonBitGame_UiTheme.htm">UiTheme</a></td><td><div class="summary">
-            Which UI theme to use (or null, if you don't want to use GeonBit built-in UI system).
-            Note: you must set this property before Initialize is called, eg inside the constructor.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_GeonBitGame_Draw.htm">Draw</a></td><td><div class="summary">
@@ -41,8 +35,12 @@
             Allows the game to perform any initialization it needs to before starting to run.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_GeonBitGame_MakeFullscreen.htm">MakeFullscreen</a></td><td><div class="summary">
             Make game work in fullscreen mode.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_GeonBitGame_ShowDiagnosticData.htm">ShowDiagnosticData</a></td><td><div class="summary">
-            Show / hide diagnostic data.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_GeonBitGame_PreInit.htm">PreInit</a></td><td><div class="summary">
+            Do some pre-initialize stuff (mostly apply init params).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_GeonBitGame_Resize.htm">Resize</a></td><td><div class="summary">
+            Resize window.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_GeonBitGame_SetTitle.htm">SetTitle</a></td><td><div class="summary">
+            Set window title.
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_GeonBitGame_Update.htm">Update</a></td><td><div class="summary">
             Allows the game to run custom frame-based logic.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_GeonBit.htm">GeonBit Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">GeonBit ECS game Engine. By Ronen Ness, 2017.<div class="feedbackLink">Send comments on this topic to
