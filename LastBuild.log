@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="C:\Projects\GeonBit\geonbit.shfbproj" started="7/1/2017 9:54:05 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="C:\Projects\GeonBit\geonbit.shfbproj" started="7/28/2017 12:28:58 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -30,16 +30,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0469
+</plugIn>    Last step completed in 00:00:00.0580
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0181
+    Last step completed in 00:00:00.0312
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build started 7/1/2017 9:54:14 PM.
+Build started 7/28/2017 12:29:08 PM.
 Project &quot;C:\Projects\GeonBit\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 PrepareForBuild:
@@ -50,7 +50,7 @@ GenerateRefInfo:
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 19 namespaces, 148 types, and 1260 members
+  Wrote information on 19 namespaces, 152 types, and 1292 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.9.17.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -60,13 +60,13 @@ Done Building Project &quot;C:\Projects\GeonBit\Help\Working\GenerateRefInfo.pro
 
 Build succeeded.
 
-Time Elapsed 00:00:00.90
-    Last step completed in 00:00:01.0434
+Time Elapsed 00:00:01.29
+    Last step completed in 00:00:01.6142
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build started 7/1/2017 9:54:15 PM.
+Build started 7/28/2017 12:29:10 PM.
 Project &quot;C:\Projects\GeonBit\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 TransformManifest:
@@ -80,6 +80,7 @@ TransformManifest:
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
     Unique name M_GeonBit_Core_Transformations__ctor_1 generated for M:GeonBit.Core.Transformations.#ctor(GeonBit.Core.Transformations)
+    Unique name M_GeonBit_Core_Graphics_CombinedMeshesEntity_AddVertices_1 generated for M:GeonBit.Core.Graphics.CombinedMeshesEntity.AddVertices(Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture[],System.Int16[],Microsoft.Xna.Framework.Matrix,GeonBit.Core.Graphics.Materials.MaterialAPI)
     Unique name M_GeonBit_Core_Graphics_CompositeModelEntity__ctor_1 generated for M:GeonBit.Core.Graphics.CompositeModelEntity.#ctor(System.String)
     Unique name M_GeonBit_Core_Graphics_CompositeModelEntity_GetMesh_1 generated for M:GeonBit.Core.Graphics.CompositeModelEntity.GetMesh(System.String)
     Unique name M_GeonBit_Core_Graphics_GraphicsManager_DrawTexture_1 generated for M:GeonBit.Core.Graphics.GraphicsManager.DrawTexture(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Rectangle,Microsoft.Xna.Framework.Vector2,System.Single,Microsoft.Xna.Framework.Vector2,System.Nullable{Microsoft.Xna.Framework.Color})
@@ -105,6 +106,7 @@ TransformManifest:
     Unique name M_GeonBit_ECS_Components_Graphics_BillboardRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.BillboardRenderer.#ctor(Microsoft.Xna.Framework.Graphics.Texture2D,System.Boolean)
     Unique name M_GeonBit_ECS_Components_Graphics_BillboardRenderer__ctor_2 generated for M:GeonBit.ECS.Components.Graphics.BillboardRenderer.#ctor(System.String,System.Boolean)
     Unique name M_GeonBit_ECS_Components_Graphics_Camera_GetRay_1 generated for M:GeonBit.ECS.Components.Graphics.Camera.GetRay(Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_ECS_Components_Graphics_CombinedMeshesRenderer_AddVertices_1 generated for M:GeonBit.ECS.Components.Graphics.CombinedMeshesRenderer.AddVertices(Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture[],System.Int16[],Microsoft.Xna.Framework.Matrix,GeonBit.Core.Graphics.Materials.MaterialAPI)
     Unique name M_GeonBit_ECS_Components_Graphics_CompositeModelRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.CompositeModelRenderer.#ctor(System.String)
     Unique name M_GeonBit_ECS_Components_Graphics_CompositeModelRenderer_GetMesh_1 generated for M:GeonBit.ECS.Components.Graphics.CompositeModelRenderer.GetMesh(System.String)
     Unique name M_GeonBit_ECS_Components_Graphics_ModelMeshRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.ModelMeshRenderer.#ctor(System.String,System.Int32)
@@ -145,12 +147,12 @@ Done Building Project &quot;C:\Projects\GeonBit\Help\Working\TransformManifest.p
 
 Build succeeded.
 
-Time Elapsed 00:00:00.92
-    Last step completed in 00:00:01.0367
+Time Elapsed 00:00:01.21
+    Last step completed in 00:00:01.4433
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0702
+    Last step completed in 00:00:00.0625
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -159,12 +161,12 @@ No additional content to copy
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 7/1/2017 9:54:16 PM.
+Build started 7/28/2017 12:29:11 PM.
 Project &quot;C:\Projects\GeonBit\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 GenerateIntermediateTOC:
@@ -176,26 +178,26 @@ Done Building Project &quot;C:\Projects\GeonBit\Help\Working\GenerateIntermediat
 
 Build succeeded.
 
-Time Elapsed 00:00:00.19
+Time Elapsed 00:00:00.48
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.3161
+    Last step completed in 00:00:00.7232
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2549
+    Last step completed in 00:00:00.3158
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Projects\GeonBit\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0165
+    Last step completed in 00:00:00.0142
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildTopics.proj]
-Build started 7/1/2017 9:54:17 PM.
+Build started 7/28/2017 12:29:12 PM.
 Project &quot;C:\Projects\GeonBit\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 BuildTopics:
@@ -505,22 +507,21 @@ BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.Plugins.Dra
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.Prototypes.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.SoundManager.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.TimeManager.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
-  Processed 1486 topic(s)
+  Processed 1531 topic(s)
   301 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
-  ResolveReferenceLinksComponent: 14 entries added to the MSDN content ID cache.  New cache size: 129 entries
   SaveComponent: Waiting for the document writer task to finish (100 Help1 API file(s) remaining)...
 Done Building Project &quot;C:\Projects\GeonBit\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:46.64
-    Last step completed in 00:00:46.7662
+Time Elapsed 00:00:38.07
+    Last step completed in 00:00:38.3304
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -533,17 +534,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1
-Processed 1486 HTML files
+Processed 1531 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Projects\GeonBit\Help\Working\Documentation.hhk
 Saving HTML Help 1 table of contents to C:\Projects\GeonBit\Help\Working\Documentation.hhc
 
 Processing website files in C:\Projects\GeonBit\Help\Working\Output\Website
-Processed 1486 HTML files
+Processed 1531 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Projects\GeonBit\Help\Working\WebKI.xml
 Saving website table of contents to C:\Projects\GeonBit\Help\Working\WebTOC.xml
-    Last step completed in 00:00:12.1175
+    Last step completed in 00:00:12.3763
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -685,7 +686,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.3619
+    Last step completed in 00:00:00.4522
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -697,7 +698,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0181
+    Last step completed in 00:00:00.0214
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -715,11 +716,11 @@ Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown
   
   Compile time: 0 minutes, 5 seconds
   
-  1,488	Topics
+  1,533	Topics
   
-  18,892	Local links
+  19,503	Local links
   
-  3,190	Internet links
+  3,267	Internet links
   
   0	Graphics
   
@@ -727,11 +728,11 @@ Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown
   
   
   
-  Created c:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\Documentation.chm, 1,216,362 bytes
+  Created c:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\Documentation.chm, 1,256,014 bytes
   
-  Compression decreased file by 10,817,808 bytes.
+  Compression decreased file by 11,165,527 bytes.
   
-    Last step completed in 00:00:05.6288
+    Last step completed in 00:00:06.0062
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -742,7 +743,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:06.3599
+</plugIn>    Last step completed in 00:00:06.5613
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -750,16 +751,17 @@ Copying website files to output folder...
 Copied 500 files
 Copied 1000 files
 Copied 1500 files
-Copied 1999 files for the website content
-    Last step completed in 00:00:01.9686
+Copied 2000 files
+Copied 2052 files for the website content
+    Last step completed in 00:00:02.6571
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.9429
+    Last step completed in 00:00:00.7978
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 7/1/2017 9:55:31 PM.  Total time: 00:01:26.4041
+Build completed successfully at 7/28/2017 12:30:19 PM.  Total time: 00:01:20.8046
 
 </buildStep>
 </shfbBuild>
