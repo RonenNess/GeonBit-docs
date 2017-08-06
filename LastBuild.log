@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="C:\Projects\GeonBit\geonbit.shfbproj" started="7/28/2017 12:28:58 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="C:\Projects\GeonBit\geonbit.shfbproj" started="8/6/2017 8:19:17 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -30,16 +30,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0580
+</plugIn>    Last step completed in 00:00:00.0469
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build started 7/28/2017 12:29:08 PM.
+Build started 8/6/2017 8:19:27 PM.
 Project &quot;C:\Projects\GeonBit\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 PrepareForBuild:
@@ -50,7 +50,7 @@ GenerateRefInfo:
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 19 namespaces, 152 types, and 1292 members
+  Wrote information on 19 namespaces, 157 types, and 1317 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.9.17.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -60,13 +60,13 @@ Done Building Project &quot;C:\Projects\GeonBit\Help\Working\GenerateRefInfo.pro
 
 Build succeeded.
 
-Time Elapsed 00:00:01.29
-    Last step completed in 00:00:01.6142
+Time Elapsed 00:00:00.90
+    Last step completed in 00:00:01.0470
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build started 7/28/2017 12:29:10 PM.
+Build started 8/6/2017 8:19:28 PM.
 Project &quot;C:\Projects\GeonBit\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 TransformManifest:
@@ -98,10 +98,14 @@ TransformManifest:
     Unique name M_GeonBit_Core_Graphics_Materials_SkinnedMaterial__ctor_1 generated for M:GeonBit.Core.Graphics.Materials.SkinnedMaterial.#ctor(Microsoft.Xna.Framework.Graphics.SkinnedEffect,System.Boolean)
     Unique name M_GeonBit_Core_Graphics_Materials_SkyboxMaterial__ctor_1 generated for M:GeonBit.Core.Graphics.Materials.SkyboxMaterial.#ctor(System.String,System.Boolean)
     Unique name M_GeonBit_Core_Graphics_Materials_SpriteMaterial__ctor_1 generated for M:GeonBit.Core.Graphics.Materials.SpriteMaterial.#ctor(Microsoft.Xna.Framework.Graphics.AlphaTestEffect,System.Boolean)
-    Unique name M_GeonBit_Core_Physics_PhysicalBody_ApplyForce_1 generated for M:GeonBit.Core.Physics.PhysicalBody.ApplyForce(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
-    Unique name M_GeonBit_Core_Physics_PhysicalBody_ApplyImpulse_1 generated for M:GeonBit.Core.Physics.PhysicalBody.ApplyImpulse(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
     Unique name M_GeonBit_Core_Physics_PhysicsDebugDraw_DrawLine_1 generated for M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)
     Unique name M_GeonBit_Core_Physics_PhysicsWorld_Raycast_1 generated for M:GeonBit.Core.Physics.PhysicsWorld.Raycast(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Boolean)
+    Unique name M_GeonBit_Core_Physics_RigidBody_ApplyForce_1 generated for M:GeonBit.Core.Physics.RigidBody.ApplyForce(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_Core_Physics_RigidBody_ApplyImpulse_1 generated for M:GeonBit.Core.Physics.RigidBody.ApplyImpulse(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_Core_Physics_CollisionShapes_CollisionHeightMap__ctor_1 generated for M:GeonBit.Core.Physics.CollisionShapes.CollisionHeightMap.#ctor(System.Byte[0:,0:],Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Boolean)
+    Unique name M_GeonBit_Core_Physics_CollisionShapes_CollisionHeightMap__ctor_2 generated for M:GeonBit.Core.Physics.CollisionShapes.CollisionHeightMap.#ctor(System.Byte[],Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Boolean)
+    Unique name M_GeonBit_Core_Physics_CollisionShapes_CollisionHeightMap__ctor_3 generated for M:GeonBit.Core.Physics.CollisionShapes.CollisionHeightMap.#ctor(System.Single[0:,0:],Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Boolean)
+    Unique name M_GeonBit_Core_Physics_CollisionShapes_CollisionHeightMap__ctor_4 generated for M:GeonBit.Core.Physics.CollisionShapes.CollisionHeightMap.#ctor(System.Single[],Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Single,System.Boolean)
     Unique name M_GeonBit_Core_Sound_SoundPlayer__ctor_1 generated for M:GeonBit.Core.Sound.SoundPlayer.#ctor(System.String)
     Unique name M_GeonBit_ECS_Components_Graphics_BillboardRenderer__ctor_1 generated for M:GeonBit.ECS.Components.Graphics.BillboardRenderer.#ctor(Microsoft.Xna.Framework.Graphics.Texture2D,System.Boolean)
     Unique name M_GeonBit_ECS_Components_Graphics_BillboardRenderer__ctor_2 generated for M:GeonBit.ECS.Components.Graphics.BillboardRenderer.#ctor(System.String,System.Boolean)
@@ -125,8 +129,10 @@ TransformManifest:
     Unique name M_GeonBit_ECS_Components_Particles_Animators_RotationAnimator__ctor_2 generated for M:GeonBit.ECS.Components.Particles.Animators.RotationAnimator.#ctor(GeonBit.ECS.Components.Particles.Animators.BaseAnimatorProperties,System.Single,System.Single)
     Unique name M_GeonBit_ECS_Components_Particles_Animators_ScaleAnimator__ctor_1 generated for M:GeonBit.ECS.Components.Particles.Animators.ScaleAnimator.#ctor(GeonBit.ECS.Components.Particles.Animators.BaseAnimatorProperties,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
     Unique name M_GeonBit_ECS_Components_Physics_CylinderInfo__ctor_1 generated for M:GeonBit.ECS.Components.Physics.CylinderInfo.#ctor(System.Single,System.Single,GeonBit.Core.Physics.CollisionShapes.CylinderDirectionAxis)
-    Unique name M_GeonBit_ECS_Components_Physics_PhysicalBody_ApplyForce_1 generated for M:GeonBit.ECS.Components.Physics.PhysicalBody.ApplyForce(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
-    Unique name M_GeonBit_ECS_Components_Physics_PhysicalBody_ApplyImpulse_1 generated for M:GeonBit.ECS.Components.Physics.PhysicalBody.ApplyImpulse(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_ECS_Components_Physics_KinematicBody__ctor_1 generated for M:GeonBit.ECS.Components.Physics.KinematicBody.#ctor(GeonBit.ECS.Components.Physics.IBodyShapeInfo)
+    Unique name M_GeonBit_ECS_Components_Physics_RigidBody__ctor_1 generated for M:GeonBit.ECS.Components.Physics.RigidBody.#ctor(GeonBit.ECS.Components.Physics.IBodyShapeInfo,System.Single,System.Single,System.Single)
+    Unique name M_GeonBit_ECS_Components_Physics_RigidBody_ApplyForce_1 generated for M:GeonBit.ECS.Components.Physics.RigidBody.ApplyForce(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
+    Unique name M_GeonBit_ECS_Components_Physics_RigidBody_ApplyImpulse_1 generated for M:GeonBit.ECS.Components.Physics.RigidBody.ApplyImpulse(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)
     Unique name M_GeonBit_ECS_Components_Sound_SoundEffect__ctor_1 generated for M:GeonBit.ECS.Components.Sound.SoundEffect.#ctor(System.String)
     Unique name M_GeonBit_Exceptions_InternalError__ctor_1 generated for M:GeonBit.Exceptions.InternalError.#ctor(System.String)
     Unique name M_GeonBit_Exceptions_InternalError__ctor_2 generated for M:GeonBit.Exceptions.InternalError.#ctor(System.String,System.Exception)
@@ -147,26 +153,26 @@ Done Building Project &quot;C:\Projects\GeonBit\Help\Working\TransformManifest.p
 
 Build succeeded.
 
-Time Elapsed 00:00:01.21
-    Last step completed in 00:00:01.4433
+Time Elapsed 00:00:00.86
+    Last step completed in 00:00:00.9580
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0625
+    Last step completed in 00:00:00.0781
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 7/28/2017 12:29:11 PM.
+Build started 8/6/2017 8:19:29 PM.
 Project &quot;C:\Projects\GeonBit\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 GenerateIntermediateTOC:
@@ -178,26 +184,26 @@ Done Building Project &quot;C:\Projects\GeonBit\Help\Working\GenerateIntermediat
 
 Build succeeded.
 
-Time Elapsed 00:00:00.48
+Time Elapsed 00:00:00.17
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.7232
+    Last step completed in 00:00:00.2657
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.3158
+    Last step completed in 00:00:00.3125
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Projects\GeonBit\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0142
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildTopics.proj]
-Build started 7/28/2017 12:29:12 PM.
+Build started 8/6/2017 8:19:29 PM.
 Project &quot;C:\Projects\GeonBit\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 BuildTopics:
@@ -425,9 +431,9 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physi
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)] Unknown reference link target &#39;M:BulletSharp.IDebugDraw.DrawLine(BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@,BulletSharp.Math.Vector3@)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.ReportErrorWarning(System.String)] Unknown reference link target &#39;M:BulletSharp.IDebugDraw.ReportErrorWarning(System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.PhysicsDebugDraw.ReportErrorWarning(System.String)] Unknown reference link target &#39;M:BulletSharp.IDebugDraw.ReportErrorWarning(System.String)&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.Raycast(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,GeonBit.ECS.Components.Physics.PhysicalBody)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.Raycast(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,GeonBit.ECS.Components.Physics.BasePhysicsComponent)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.Raycast(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Boolean)] Missing &lt;returns&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.RemoveBody(GeonBit.Core.Physics.PhysicalBody)] Missing &lt;param name=&quot;body&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.RemoveBody(GeonBit.Core.Physics.BasicPhysicalBody)] Missing &lt;param name=&quot;body&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Core.Physics.PhysicsWorld.SetGravity(Microsoft.Xna.Framework.Vector3)] Missing &lt;param name=&quot;gravity&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToBullet.Matrix(Microsoft.Xna.Framework.Matrix)] Unknown reference link target &#39;T:BulletSharp.Math.Matrix&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.Core.Physics.ToBullet.Matrix(Microsoft.Xna.Framework.Matrix)] Unknown reference link target &#39;T:BulletSharp.Math.Matrix&#39;. [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
@@ -507,7 +513,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.Plugins.Dra
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.Prototypes.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.SoundManager.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.Managers.TimeManager.Draw(Microsoft.Xna.Framework.GameTime)] Missing &lt;param name=&quot;time&quot;/&gt; documentation [C:\Projects\GeonBit\Help\Working\BuildTopics.proj]
-  Processed 1531 topic(s)
+  Processed 1582 topic(s)
   301 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
@@ -516,12 +522,12 @@ Done Building Project &quot;C:\Projects\GeonBit\Help\Working\BuildTopics.proj&qu
 
 Build succeeded.
 
-Time Elapsed 00:00:38.07
-    Last step completed in 00:00:38.3304
+Time Elapsed 00:00:40.33
+    Last step completed in 00:00:40.4579
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -534,17 +540,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Projects\GeonBit\Help\Working\Output\HtmlHelp1
-Processed 1531 HTML files
+Processed 1582 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Projects\GeonBit\Help\Working\Documentation.hhk
 Saving HTML Help 1 table of contents to C:\Projects\GeonBit\Help\Working\Documentation.hhc
 
 Processing website files in C:\Projects\GeonBit\Help\Working\Output\Website
-Processed 1531 HTML files
+Processed 1582 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Projects\GeonBit\Help\Working\WebKI.xml
 Saving website table of contents to C:\Projects\GeonBit\Help\Working\WebTOC.xml
-    Last step completed in 00:00:12.3763
+    Last step completed in 00:00:14.0672
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -686,7 +692,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Projects\GeonBit\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.4522
+    Last step completed in 00:00:00.6096
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -698,7 +704,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0214
+    Last step completed in 00:00:00.0291
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -714,13 +720,13 @@ Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown
   
   
   
-  Compile time: 0 minutes, 5 seconds
+  Compile time: 0 minutes, 6 seconds
   
-  1,533	Topics
+  1,584	Topics
   
-  19,503	Local links
+  20,554	Local links
   
-  3,267	Internet links
+  3,410	Internet links
   
   0	Graphics
   
@@ -728,11 +734,11 @@ Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown
   
   
   
-  Created c:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\Documentation.chm, 1,256,014 bytes
+  Created c:\Projects\GeonBit\Help\Working\Output\HtmlHelp1\Documentation.chm, 1,314,228 bytes
   
-  Compression decreased file by 11,165,527 bytes.
+  Compression decreased file by 11,615,576 bytes.
   
-    Last step completed in 00:00:06.0062
+    Last step completed in 00:00:06.4701
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -743,7 +749,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:06.5613
+</plugIn>    Last step completed in 00:00:09.0069
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -752,16 +758,16 @@ Copied 500 files
 Copied 1000 files
 Copied 1500 files
 Copied 2000 files
-Copied 2052 files for the website content
-    Last step completed in 00:00:02.6571
+Copied 2124 files for the website content
+    Last step completed in 00:00:03.6176
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.7978
+    Last step completed in 00:00:00.9575
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 7/28/2017 12:30:19 PM.  Total time: 00:01:20.8046
+Build completed successfully at 8/6/2017 8:20:44 PM.  Total time: 00:01:27.1560
 
 </buildStep>
 </shfbBuild>
