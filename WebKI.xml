@@ -16,6 +16,7 @@
   <HelpKINode Title="Activate method" Url="html/M_GeonBit_ECS_GameScene_Activate.htm" />
   <HelpKINode Title="ActiveCamera field" Url="html/F_GeonBit_Core_Graphics_GraphicsManager_ActiveCamera.htm" />
   <HelpKINode Title="ActiveCamera property" Url="html/P_GeonBit_ECS_GameScene_ActiveCamera.htm" />
+  <HelpKINode Title="ActiveLightsManager property" Url="html/P_GeonBit_Core_Graphics_GraphicsManager_ActiveLightsManager.htm" />
   <HelpKINode Title="ActiveScene property">
     <HelpKINode Title="Application.ActiveScene Property " Url="html/P_GeonBit_Managers_Application_ActiveScene.htm" />
     <HelpKINode Title="EasyManagersGetters.ActiveScene Property " Url="html/P_GeonBit_Managers_EasyManagersGetters_ActiveScene.htm" />
@@ -28,6 +29,10 @@
   <HelpKINode Title="AddComponentDebug method" Url="html/M_GeonBit_ECS_GameObject_AddComponentDebug.htm" />
   <HelpKINode Title="AddEntity method" Url="html/M_GeonBit_Core_Graphics_Node_AddEntity.htm" />
   <HelpKINode Title="Additive field" Url="html/F_GeonBit_Core_Graphics_BlendStates_Additive.htm" />
+  <HelpKINode Title="AddLight method">
+    <HelpKINode Title="ILightsManager.AddLight Method " Url="html/M_GeonBit_Core_Graphics_Lights_ILightsManager_AddLight.htm" />
+    <HelpKINode Title="LightsManager.AddLight Method " Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager_AddLight.htm" />
+  </HelpKINode>
   <HelpKINode Title="AddModel method">
     <HelpKINode Title="CombinedMeshesEntity.AddModel Method " Url="html/M_GeonBit_Core_Graphics_CombinedMeshesEntity_AddModel.htm" />
     <HelpKINode Title="CombinedMeshesRenderer.AddModel Method " Url="html/M_GeonBit_ECS_Components_Graphics_CombinedMeshesRenderer_AddModel.htm" />
@@ -39,21 +44,27 @@
   <HelpKINode Title="AddNodeToUpdateQueue method" Url="html/M_GeonBit_Core_Graphics_NodesManager_AddNodeToUpdateQueue.htm" />
   <HelpKINode Title="AddParticlesToRoot field" Url="html/F_GeonBit_ECS_Components_Particles_ParticleSystem_AddParticlesToRoot.htm" />
   <HelpKINode Title="AddParticleType method" Url="html/M_GeonBit_ECS_Components_Particles_ParticleSystem_AddParticleType.htm" />
+  <HelpKINode Title="AddShape method" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape_AddShape.htm" />
   <HelpKINode Title="AddStep method" Url="html/M_GeonBit_Core_Graphics_SpriteSheet_AddStep.htm" />
   <HelpKINode Title="AddStepDelay method" Url="html/M_GeonBit_Core_Graphics_SpriteAnimationClip_AddStepDelay.htm" />
   <HelpKINode Title="AddVertices method">
     <HelpKINode Title="CombinedMeshesEntity.AddVertices Method " Url="html/Overload_GeonBit_Core_Graphics_CombinedMeshesEntity_AddVertices.htm" />
     <HelpKINode Title="CombinedMeshesRenderer.AddVertices Method " Url="html/Overload_GeonBit_ECS_Components_Graphics_CombinedMeshesRenderer_AddVertices.htm" />
   </HelpKINode>
-  <HelpKINode Title="AllCharacters field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_AllCharacters.htm" />
-  <HelpKINode Title="AllProjectiles field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_AllProjectiles.htm" />
+  <HelpKINode Title="All enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
+  <HelpKINode Title="AllCharacters field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_AllCharacters.htm" />
+  <HelpKINode Title="AllProjectiles field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_AllProjectiles.htm" />
+  <HelpKINode Title="Alpha enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
   <HelpKINode Title="Alpha property">
     <HelpKINode Title="MaterialAPI.Alpha Property " Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_Alpha.htm" />
     <HelpKINode Title="MaterialOverrides.Alpha Property " Url="html/P_GeonBit_Core_Graphics_MaterialOverrides_Alpha.htm" />
   </HelpKINode>
   <HelpKINode Title="AlphaBlend field" Url="html/F_GeonBit_Core_Graphics_BlendStates_AlphaBlend.htm" />
-  <HelpKINode Title="AlphaFunction field" Url="html/F_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_AlphaFunction.htm" />
-  <HelpKINode Title="AlphaTest enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialTypes.htm" />
+  <HelpKINode Title="AlphaFunction property" Url="html/P_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_AlphaFunction.htm" />
+  <HelpKINode Title="AlphaTest enumeration member">
+    <HelpKINode Title="MaterialDirtyFlags Enumeration" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
+    <HelpKINode Title="MaterialTypes Enumeration" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialTypes.htm" />
+  </HelpKINode>
   <HelpKINode Title="AlphaTest property" Url="html/P_GeonBit_Core_Graphics_Materials_DefaultMaterialsFactory_AlphaTest.htm" />
   <HelpKINode Title="AlphaTestMaterial class">
     <HelpKINode Title="AlphaTestMaterial Class" Url="html/T_GeonBit_Core_Graphics_Materials_AlphaTestMaterial.htm" />
@@ -63,22 +74,27 @@
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Graphics_Materials_AlphaTestMaterial.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Graphics_Materials_AlphaTestMaterial.htm" />
   </HelpKINode>
-  <HelpKINode Title="AlphaTestMaterial.AlphaFunction field" Url="html/F_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_AlphaFunction.htm" />
+  <HelpKINode Title="AlphaTestMaterial.AlphaFunction property" Url="html/P_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_AlphaFunction.htm" />
   <HelpKINode Title="AlphaTestMaterial.AlphaTestMaterial constructor" Url="html/Overload_GeonBit_Core_Graphics_Materials_AlphaTestMaterial__ctor.htm" />
   <HelpKINode Title="AlphaTestMaterial.Clone method" Url="html/M_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_Clone.htm" />
   <HelpKINode Title="AlphaTestMaterial.Effect property" Url="html/P_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_Effect.htm" />
-  <HelpKINode Title="AlphaTestMaterial.ReferenceAlpha field" Url="html/F_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_ReferenceAlpha.htm" />
+  <HelpKINode Title="AlphaTestMaterial.ReferenceAlpha property" Url="html/P_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_ReferenceAlpha.htm" />
   <HelpKINode Title="AlternativeFire enumeration member" Url="html/T_GeonBit_Input_GameKeys.htm" />
-  <HelpKINode Title="AmbientLight property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_AmbientLight.htm" />
-  <HelpKINode Title="AND method" Url="html/M_GeonBit_ECS_Components_Physics_CollisionGroups_AND.htm" />
+  <HelpKINode Title="AmbientLight enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
+  <HelpKINode Title="AmbientLight property">
+    <HelpKINode Title="ILightsManager.AmbientLight Property " Url="html/P_GeonBit_Core_Graphics_Lights_ILightsManager_AmbientLight.htm" />
+    <HelpKINode Title="LightsManager.AmbientLight Property " Url="html/P_GeonBit_Core_Graphics_Lights_LightsManager_AmbientLight.htm" />
+    <HelpKINode Title="MaterialAPI.AmbientLight Property " Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_AmbientLight.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AND method" Url="html/M_GeonBit_Core_Physics_CollisionGroups_AND.htm" />
   <HelpKINode Title="AnglesDistance method" Url="html/M_GeonBit_Core_Utils_ExtendedMath_AnglesDistance.htm" />
   <HelpKINode Title="AngularDamping property">
-    <HelpKINode Title="RigidBody.AngularDamping Property " Url="html/P_GeonBit_Core_Physics_RigidBody_AngularDamping.htm" />
     <HelpKINode Title="RigidBody.AngularDamping Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_AngularDamping.htm" />
+    <HelpKINode Title="RigidBody.AngularDamping Property " Url="html/P_GeonBit_Core_Physics_RigidBody_AngularDamping.htm" />
   </HelpKINode>
   <HelpKINode Title="AngularFactor property">
-    <HelpKINode Title="RigidBody.AngularFactor Property " Url="html/P_GeonBit_Core_Physics_RigidBody_AngularFactor.htm" />
     <HelpKINode Title="RigidBody.AngularFactor Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_AngularFactor.htm" />
+    <HelpKINode Title="RigidBody.AngularFactor Property " Url="html/P_GeonBit_Core_Physics_RigidBody_AngularFactor.htm" />
   </HelpKINode>
   <HelpKINode Title="AngularVelocity property">
     <HelpKINode Title="RigidBody.AngularVelocity Property " Url="html/P_GeonBit_Core_Physics_RigidBody_AngularVelocity.htm" />
@@ -135,8 +151,8 @@
     <HelpKINode Title="RigidBody.ApplyImpulse Method " Url="html/Overload_GeonBit_Core_Physics_RigidBody_ApplyImpulse.htm" />
   </HelpKINode>
   <HelpKINode Title="ApplyTorque method">
-    <HelpKINode Title="RigidBody.ApplyTorque Method " Url="html/M_GeonBit_ECS_Components_Physics_RigidBody_ApplyTorque.htm" />
     <HelpKINode Title="RigidBody.ApplyTorque Method " Url="html/M_GeonBit_Core_Physics_RigidBody_ApplyTorque.htm" />
+    <HelpKINode Title="RigidBody.ApplyTorque Method " Url="html/M_GeonBit_ECS_Components_Physics_RigidBody_ApplyTorque.htm" />
   </HelpKINode>
   <HelpKINode Title="Apps enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="AsDebug field" Url="html/F_GeonBit_ECS_Components_BaseComponent_AsDebug.htm" />
@@ -249,6 +265,8 @@
   <HelpKINode Title="BasePhysicsComponent.Friction property" Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_Friction.htm" />
   <HelpKINode Title="BasePhysicsComponent.InvokeCollisionEvents property" Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_InvokeCollisionEvents.htm" />
   <HelpKINode Title="BasePhysicsComponent.IsEthereal property" Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_IsEthereal.htm" />
+  <HelpKINode Title="BasePhysicsComponent.IsKinematic property" Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_IsKinematic.htm" />
+  <HelpKINode Title="BasePhysicsComponent.IsStatic property" Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_IsStatic.htm" />
   <HelpKINode Title="BasePhysicsComponent.Position property" Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_Position.htm" />
   <HelpKINode Title="BasePhysicsComponent.Restitution property" Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_Restitution.htm" />
   <HelpKINode Title="BasePhysicsComponent.Scale property" Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_Scale.htm" />
@@ -269,6 +287,8 @@
   <HelpKINode Title="BaseRenderableEntity.Draw method" Url="html/M_GeonBit_Core_Graphics_BaseRenderableEntity_Draw.htm" />
   <HelpKINode Title="BaseRenderableEntity.GetBoundingBox method" Url="html/M_GeonBit_Core_Graphics_BaseRenderableEntity_GetBoundingBox.htm" />
   <HelpKINode Title="BaseRenderableEntity.GetBoundingSphere method" Url="html/M_GeonBit_Core_Graphics_BaseRenderableEntity_GetBoundingSphere.htm" />
+  <HelpKINode Title="BaseRenderableEntity.GetLastBoundingBox method" Url="html/M_GeonBit_Core_Graphics_BaseRenderableEntity_GetLastBoundingBox.htm" />
+  <HelpKINode Title="BaseRenderableEntity.GetLastBoundingSphere method" Url="html/M_GeonBit_Core_Graphics_BaseRenderableEntity_GetLastBoundingSphere.htm" />
   <HelpKINode Title="BaseRenderableEntity.IsDebugEntity property" Url="html/P_GeonBit_Core_Graphics_BaseRenderableEntity_IsDebugEntity.htm" />
   <HelpKINode Title="BaseRenderableEntity.OnDraw field" Url="html/F_GeonBit_Core_Graphics_BaseRenderableEntity_OnDraw.htm" />
   <HelpKINode Title="BaseRenderableEntity.RenderingQueue field" Url="html/F_GeonBit_Core_Graphics_BaseRenderableEntity_RenderingQueue.htm" />
@@ -317,6 +337,8 @@
   <HelpKINode Title="BasicPhysicalBody.InvokeCollisionEvents property" Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_InvokeCollisionEvents.htm" />
   <HelpKINode Title="BasicPhysicalBody.IsActive property" Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_IsActive.htm" />
   <HelpKINode Title="BasicPhysicalBody.IsEthereal property" Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_IsEthereal.htm" />
+  <HelpKINode Title="BasicPhysicalBody.IsKinematic property" Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_IsKinematic.htm" />
+  <HelpKINode Title="BasicPhysicalBody.IsStatic property" Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_IsStatic.htm" />
   <HelpKINode Title="BasicPhysicalBody.Position property" Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_Position.htm" />
   <HelpKINode Title="BasicPhysicalBody.Restitution property" Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_Restitution.htm" />
   <HelpKINode Title="BasicPhysicalBody.Scale property" Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_Scale.htm" />
@@ -354,10 +376,11 @@
   <HelpKINode Title="BlendStates.AlphaBlend field" Url="html/F_GeonBit_Core_Graphics_BlendStates_AlphaBlend.htm" />
   <HelpKINode Title="BlendStates.NonPremultiplied field" Url="html/F_GeonBit_Core_Graphics_BlendStates_NonPremultiplied.htm" />
   <HelpKINode Title="BlendStates.Opaque field" Url="html/F_GeonBit_Core_Graphics_BlendStates_Opaque.htm" />
-  <HelpKINode Title="Blocking field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Blocking.htm" />
+  <HelpKINode Title="Blocking field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Blocking.htm" />
+  <HelpKINode Title="Bones enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
   <HelpKINode Title="BoundingBox property">
-    <HelpKINode Title="RigidBody.BoundingBox Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_BoundingBox.htm" />
     <HelpKINode Title="RigidBody.BoundingBox Property " Url="html/P_GeonBit_Core_Physics_RigidBody_BoundingBox.htm" />
+    <HelpKINode Title="RigidBody.BoundingBox Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_BoundingBox.htm" />
   </HelpKINode>
   <HelpKINode Title="BoundingBoxCulling enumeration member" Url="html/T_GeonBit_ECS_SceneNodeType.htm" />
   <HelpKINode Title="BoundingBoxCullingNode class">
@@ -398,6 +421,7 @@
   <HelpKINode Title="BoundingBoxRenderer.BoundingBoxRenderer constructor" Url="html/M_GeonBit_ECS_Components_Graphics_BoundingBoxRenderer__ctor.htm" />
   <HelpKINode Title="BoundingBoxRenderer.Clone method" Url="html/M_GeonBit_ECS_Components_Graphics_BoundingBoxRenderer_Clone.htm" />
   <HelpKINode Title="BoundingShapesTtl field" Url="html/F_GeonBit_Core_Graphics_Node_BoundingShapesTtl.htm" />
+  <HelpKINode Title="BoundingSphere property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_BoundingSphere.htm" />
   <HelpKINode Title="BoundingSphereCulling enumeration member" Url="html/T_GeonBit_ECS_SceneNodeType.htm" />
   <HelpKINode Title="BoundingSphereCullingNode class">
     <HelpKINode Title="BoundingSphereCullingNode Class" Url="html/T_GeonBit_Core_Graphics_BoundingSphereCullingNode.htm" />
@@ -461,22 +485,16 @@
     <HelpKINode Title="BasePhysicsComponent.CallCollisionEnd Method " Url="html/M_GeonBit_ECS_Components_Physics_BasePhysicsComponent_CallCollisionEnd.htm" />
     <HelpKINode Title="BasicPhysicalBody.CallCollisionEnd Method " Url="html/M_GeonBit_Core_Physics_BasicPhysicalBody_CallCollisionEnd.htm" />
     <HelpKINode Title="GameObject.CallCollisionEnd Method " Url="html/M_GeonBit_ECS_GameObject_CallCollisionEnd.htm" />
-    <HelpKINode Title="KinematicBody.CallCollisionEnd Method " Url="html/Overload_GeonBit_ECS_Components_Physics_KinematicBody_CallCollisionEnd.htm" />
-    <HelpKINode Title="RigidBody.CallCollisionEnd Method " Url="html/Overload_GeonBit_ECS_Components_Physics_RigidBody_CallCollisionEnd.htm" />
   </HelpKINode>
   <HelpKINode Title="CallCollisionProcess method">
     <HelpKINode Title="BasePhysicsComponent.CallCollisionProcess Method " Url="html/M_GeonBit_ECS_Components_Physics_BasePhysicsComponent_CallCollisionProcess.htm" />
     <HelpKINode Title="BasicPhysicalBody.CallCollisionProcess Method " Url="html/M_GeonBit_Core_Physics_BasicPhysicalBody_CallCollisionProcess.htm" />
     <HelpKINode Title="GameObject.CallCollisionProcess Method " Url="html/M_GeonBit_ECS_GameObject_CallCollisionProcess.htm" />
-    <HelpKINode Title="KinematicBody.CallCollisionProcess Method " Url="html/Overload_GeonBit_ECS_Components_Physics_KinematicBody_CallCollisionProcess.htm" />
-    <HelpKINode Title="RigidBody.CallCollisionProcess Method " Url="html/Overload_GeonBit_ECS_Components_Physics_RigidBody_CallCollisionProcess.htm" />
   </HelpKINode>
   <HelpKINode Title="CallCollisionStart method">
     <HelpKINode Title="BasePhysicsComponent.CallCollisionStart Method " Url="html/M_GeonBit_ECS_Components_Physics_BasePhysicsComponent_CallCollisionStart.htm" />
     <HelpKINode Title="BasicPhysicalBody.CallCollisionStart Method " Url="html/M_GeonBit_Core_Physics_BasicPhysicalBody_CallCollisionStart.htm" />
     <HelpKINode Title="GameObject.CallCollisionStart Method " Url="html/M_GeonBit_ECS_GameObject_CallCollisionStart.htm" />
-    <HelpKINode Title="KinematicBody.CallCollisionStart Method " Url="html/Overload_GeonBit_ECS_Components_Physics_KinematicBody_CallCollisionStart.htm" />
-    <HelpKINode Title="RigidBody.CallCollisionStart Method " Url="html/Overload_GeonBit_ECS_Components_Physics_RigidBody_CallCollisionStart.htm" />
   </HelpKINode>
   <HelpKINode Title="CallSpawnEvent method" Url="html/M_GeonBit_ECS_GameObject_CallSpawnEvent.htm" />
   <HelpKINode Title="Camera class">
@@ -579,10 +597,11 @@
     <HelpKINode Title="SpriteEntity.ChangeSpritesheet Method " Url="html/M_GeonBit_Core_Graphics_SpriteEntity_ChangeSpritesheet.htm" />
     <HelpKINode Title="SpriteRenderer.ChangeSpritesheet Method " Url="html/M_GeonBit_ECS_Components_Graphics_SpriteRenderer_ChangeSpritesheet.htm" />
   </HelpKINode>
-  <HelpKINode Title="Characters field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Characters.htm" />
+  <HelpKINode Title="Characters field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Characters.htm" />
   <HelpKINode Title="ChatPadGreen enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="ChatPadOrange enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="Clear method">
+    <HelpKINode Title="CollisionCompoundShape.Clear Method " Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape_Clear.htm" />
     <HelpKINode Title="CombinedMeshesEntity.Clear Method " Url="html/M_GeonBit_Core_Graphics_CombinedMeshesEntity_Clear.htm" />
     <HelpKINode Title="CombinedMeshesRenderer.Clear Method " Url="html/M_GeonBit_ECS_Components_Graphics_CombinedMeshesRenderer_Clear.htm" />
   </HelpKINode>
@@ -612,7 +631,10 @@
     <HelpKINode Title="CompositeModelRenderer.Clone Method " Url="html/M_GeonBit_ECS_Components_Graphics_CompositeModelRenderer_Clone.htm" />
     <HelpKINode Title="FadeAnimator.Clone Method " Url="html/M_GeonBit_ECS_Components_Particles_Animators_FadeAnimator_Clone.htm" />
     <HelpKINode Title="GameObject.Clone Method " Url="html/M_GeonBit_ECS_GameObject_Clone.htm" />
+    <HelpKINode Title="ICollisionShape.Clone Method " Url="html/M_GeonBit_Core_Physics_CollisionShapes_ICollisionShape_Clone.htm" />
     <HelpKINode Title="KinematicBody.Clone Method " Url="html/M_GeonBit_ECS_Components_Physics_KinematicBody_Clone.htm" />
+    <HelpKINode Title="Light.Clone Method " Url="html/M_GeonBit_ECS_Components_Graphics_Light_Clone.htm" />
+    <HelpKINode Title="LitMaterial.Clone Method " Url="html/M_GeonBit_Core_Graphics_Materials_LitMaterial_Clone.htm" />
     <HelpKINode Title="MaterialAPI.Clone Method " Url="html/M_GeonBit_Core_Graphics_Materials_MaterialAPI_Clone.htm" />
     <HelpKINode Title="MaterialOverrides.Clone Method " Url="html/M_GeonBit_Core_Graphics_MaterialOverrides_Clone.htm" />
     <HelpKINode Title="ModelMeshRenderer.Clone Method " Url="html/M_GeonBit_ECS_Components_Graphics_ModelMeshRenderer_Clone.htm" />
@@ -634,6 +656,7 @@
     <HelpKINode Title="SoundEffect.Clone Method " Url="html/M_GeonBit_ECS_Components_Sound_SoundEffect_Clone.htm" />
     <HelpKINode Title="SpawnRandomizer.Clone Method " Url="html/M_GeonBit_ECS_Components_Particles_Animators_SpawnRandomizer_Clone.htm" />
     <HelpKINode Title="SpriteRenderer.Clone Method " Url="html/M_GeonBit_ECS_Components_Graphics_SpriteRenderer_Clone.htm" />
+    <HelpKINode Title="StaticBody.Clone Method " Url="html/M_GeonBit_ECS_Components_Physics_StaticBody_Clone.htm" />
     <HelpKINode Title="TileMap.Clone Method " Url="html/M_GeonBit_ECS_Components_Misc_TileMap_Clone.htm" />
     <HelpKINode Title="TimeToLive.Clone Method " Url="html/M_GeonBit_ECS_Components_Misc_TimeToLive_Clone.htm" />
     <HelpKINode Title="Transformations.Clone Method " Url="html/M_GeonBit_Core_Transformations_Clone.htm" />
@@ -661,6 +684,16 @@
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_CollisionShapes_CollisionCapsule.htm" />
   </HelpKINode>
   <HelpKINode Title="CollisionCapsule.CollisionCapsule constructor" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCapsule__ctor.htm" />
+  <HelpKINode Title="CollisionCompoundShape class">
+    <HelpKINode Title="CollisionCompoundShape Class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape.htm" />
+    <HelpKINode Title="about CollisionCompoundShape class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CollisionCompoundShape.AddShape method" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape_AddShape.htm" />
+  <HelpKINode Title="CollisionCompoundShape.Clear method" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape_Clear.htm" />
+  <HelpKINode Title="CollisionCompoundShape.CollisionCompoundShape constructor" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape__ctor.htm" />
+  <HelpKINode Title="CollisionCompoundShape.RemoveShape method" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape_RemoveShape.htm" />
   <HelpKINode Title="CollisionCone class">
     <HelpKINode Title="CollisionCone Class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionCone.htm" />
     <HelpKINode Title="about CollisionCone class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionCone.htm" />
@@ -682,9 +715,9 @@
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_CollisionShapes_CollisionCylinder.htm" />
   </HelpKINode>
   <HelpKINode Title="CollisionCylinder.CollisionCylinder constructor" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCylinder__ctor.htm" />
-  <HelpKINode Title="CollisionData class">
-    <HelpKINode Title="CollisionData Class" Url="html/T_GeonBit_Core_Physics_CollisionData.htm" />
-    <HelpKINode Title="about CollisionData class" Url="html/T_GeonBit_Core_Physics_CollisionData.htm" />
+  <HelpKINode Title="CollisionData structure">
+    <HelpKINode Title="CollisionData Structure" Url="html/T_GeonBit_Core_Physics_CollisionData.htm" />
+    <HelpKINode Title="about CollisionData structure" Url="html/T_GeonBit_Core_Physics_CollisionData.htm" />
     <HelpKINode Title="constructor" Url="html/M_GeonBit_Core_Physics_CollisionData__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_Core_Physics_CollisionData.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_CollisionData.htm" />
@@ -704,30 +737,30 @@
     <HelpKINode Title="BasicPhysicalBody.CollisionGroup Property " Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_CollisionGroup.htm" />
   </HelpKINode>
   <HelpKINode Title="CollisionGroups class">
-    <HelpKINode Title="CollisionGroups Class" Url="html/T_GeonBit_ECS_Components_Physics_CollisionGroups.htm" />
-    <HelpKINode Title="about CollisionGroups class" Url="html/T_GeonBit_ECS_Components_Physics_CollisionGroups.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_ECS_Components_Physics_CollisionGroups.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_ECS_Components_Physics_CollisionGroups.htm" />
+    <HelpKINode Title="CollisionGroups Class" Url="html/T_GeonBit_Core_Physics_CollisionGroups.htm" />
+    <HelpKINode Title="about CollisionGroups class" Url="html/T_GeonBit_Core_Physics_CollisionGroups.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_Core_Physics_CollisionGroups.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_CollisionGroups.htm" />
   </HelpKINode>
-  <HelpKINode Title="CollisionGroups.AllCharacters field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_AllCharacters.htm" />
-  <HelpKINode Title="CollisionGroups.AllProjectiles field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_AllProjectiles.htm" />
-  <HelpKINode Title="CollisionGroups.AND method" Url="html/M_GeonBit_ECS_Components_Physics_CollisionGroups_AND.htm" />
-  <HelpKINode Title="CollisionGroups.Doodads field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Doodads.htm" />
-  <HelpKINode Title="CollisionGroups.DynamicObjects field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_DynamicObjects.htm" />
-  <HelpKINode Title="CollisionGroups.Enemies field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Enemies.htm" />
-  <HelpKINode Title="CollisionGroups.EnemyProjectiles field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_EnemyProjectiles.htm" />
-  <HelpKINode Title="CollisionGroups.ForceField field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_ForceField.htm" />
-  <HelpKINode Title="CollisionGroups.FriendProjectiles field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_FriendProjectiles.htm" />
-  <HelpKINode Title="CollisionGroups.Friends field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Friends.htm" />
-  <HelpKINode Title="CollisionGroups.Neutrals field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Neutrals.htm" />
-  <HelpKINode Title="CollisionGroups.OR method" Url="html/M_GeonBit_ECS_Components_Physics_CollisionGroups_OR.htm" />
-  <HelpKINode Title="CollisionGroups.Pickables field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Pickables.htm" />
-  <HelpKINode Title="CollisionGroups.Player field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Player.htm" />
-  <HelpKINode Title="CollisionGroups.PlayerProjectiles field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_PlayerProjectiles.htm" />
-  <HelpKINode Title="CollisionGroups.PowerUps field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_PowerUps.htm" />
-  <HelpKINode Title="CollisionGroups.StaticObjects field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_StaticObjects.htm" />
-  <HelpKINode Title="CollisionGroups.Terrain field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Terrain.htm" />
-  <HelpKINode Title="CollisionGroups.Triggers field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Triggers.htm" />
+  <HelpKINode Title="CollisionGroups.AllCharacters field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_AllCharacters.htm" />
+  <HelpKINode Title="CollisionGroups.AllProjectiles field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_AllProjectiles.htm" />
+  <HelpKINode Title="CollisionGroups.AND method" Url="html/M_GeonBit_Core_Physics_CollisionGroups_AND.htm" />
+  <HelpKINode Title="CollisionGroups.Doodads field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Doodads.htm" />
+  <HelpKINode Title="CollisionGroups.DynamicObjects field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_DynamicObjects.htm" />
+  <HelpKINode Title="CollisionGroups.Enemies field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Enemies.htm" />
+  <HelpKINode Title="CollisionGroups.EnemyProjectiles field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_EnemyProjectiles.htm" />
+  <HelpKINode Title="CollisionGroups.ForceField field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_ForceField.htm" />
+  <HelpKINode Title="CollisionGroups.FriendProjectiles field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_FriendProjectiles.htm" />
+  <HelpKINode Title="CollisionGroups.Friends field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Friends.htm" />
+  <HelpKINode Title="CollisionGroups.Neutrals field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Neutrals.htm" />
+  <HelpKINode Title="CollisionGroups.OR method" Url="html/M_GeonBit_Core_Physics_CollisionGroups_OR.htm" />
+  <HelpKINode Title="CollisionGroups.Pickables field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Pickables.htm" />
+  <HelpKINode Title="CollisionGroups.Player field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Player.htm" />
+  <HelpKINode Title="CollisionGroups.PlayerProjectiles field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_PlayerProjectiles.htm" />
+  <HelpKINode Title="CollisionGroups.PowerUps field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_PowerUps.htm" />
+  <HelpKINode Title="CollisionGroups.StaticObjects field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_StaticObjects.htm" />
+  <HelpKINode Title="CollisionGroups.Terrain field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Terrain.htm" />
+  <HelpKINode Title="CollisionGroups.Triggers field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Triggers.htm" />
   <HelpKINode Title="CollisionHeightMap class">
     <HelpKINode Title="CollisionHeightMap Class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionHeightMap.htm" />
     <HelpKINode Title="about CollisionHeightMap class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionHeightMap.htm" />
@@ -740,18 +773,18 @@
     <HelpKINode Title="BasicPhysicalBody.CollisionMask Property " Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_CollisionMask.htm" />
   </HelpKINode>
   <HelpKINode Title="CollisionMasks class">
-    <HelpKINode Title="CollisionMasks Class" Url="html/T_GeonBit_ECS_Components_Physics_CollisionMasks.htm" />
-    <HelpKINode Title="about CollisionMasks class" Url="html/T_GeonBit_ECS_Components_Physics_CollisionMasks.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_ECS_Components_Physics_CollisionMasks.htm" />
+    <HelpKINode Title="CollisionMasks Class" Url="html/T_GeonBit_Core_Physics_CollisionMasks.htm" />
+    <HelpKINode Title="about CollisionMasks class" Url="html/T_GeonBit_Core_Physics_CollisionMasks.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_Core_Physics_CollisionMasks.htm" />
   </HelpKINode>
-  <HelpKINode Title="CollisionMasks.Blocking field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Blocking.htm" />
-  <HelpKINode Title="CollisionMasks.Characters field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Characters.htm" />
-  <HelpKINode Title="CollisionMasks.DynamicTargets field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_DynamicTargets.htm" />
-  <HelpKINode Title="CollisionMasks.FriendlyTargets field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_FriendlyTargets.htm" />
-  <HelpKINode Title="CollisionMasks.NonCharacterTargets field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_NonCharacterTargets.htm" />
-  <HelpKINode Title="CollisionMasks.Pickups field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Pickups.htm" />
-  <HelpKINode Title="CollisionMasks.Statics field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Statics.htm" />
-  <HelpKINode Title="CollisionMasks.Targets field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Targets.htm" />
+  <HelpKINode Title="CollisionMasks.Blocking field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Blocking.htm" />
+  <HelpKINode Title="CollisionMasks.Characters field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Characters.htm" />
+  <HelpKINode Title="CollisionMasks.DynamicTargets field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_DynamicTargets.htm" />
+  <HelpKINode Title="CollisionMasks.FriendlyTargets field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_FriendlyTargets.htm" />
+  <HelpKINode Title="CollisionMasks.NonCharacterTargets field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_NonCharacterTargets.htm" />
+  <HelpKINode Title="CollisionMasks.Pickups field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Pickups.htm" />
+  <HelpKINode Title="CollisionMasks.Statics field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Statics.htm" />
+  <HelpKINode Title="CollisionMasks.Targets field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Targets.htm" />
   <HelpKINode Title="CollisionNormal field" Url="html/F_GeonBit_Core_Physics_RaycastResults_SingleResult_CollisionNormal.htm" />
   <HelpKINode Title="CollisionPoint field" Url="html/F_GeonBit_Core_Physics_RaycastResults_SingleResult_CollisionPoint.htm" />
   <HelpKINode Title="CollisionProcess method" Url="html/M_GeonBit_ECS_Components_BaseComponent_CollisionProcess.htm" />
@@ -771,6 +804,10 @@
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_CollisionShapes_CollisionTriangle.htm" />
   </HelpKINode>
   <HelpKINode Title="CollisionTriangle.CollisionTriangle constructor" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionTriangle__ctor.htm" />
+  <HelpKINode Title="Color property">
+    <HelpKINode Title="Light.Color Property " Url="html/P_GeonBit_ECS_Components_Graphics_Light_Color.htm" />
+    <HelpKINode Title="LightSource.Color Property " Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Color.htm" />
+  </HelpKINode>
   <HelpKINode Title="ColorAnimator class">
     <HelpKINode Title="ColorAnimator Class" Url="html/T_GeonBit_ECS_Components_Particles_Animators_ColorAnimator.htm" />
     <HelpKINode Title="about ColorAnimator class" Url="html/T_GeonBit_ECS_Components_Particles_Animators_ColorAnimator.htm" />
@@ -924,6 +961,7 @@
   <HelpKINode Title="Cover enumeration member" Url="html/T_GeonBit_ECS_Components_Graphics_BackgroundDrawMode.htm" />
   <HelpKINode Title="CPU enumeration member" Url="html/T_GeonBit_Core_Graphics_AnimatedMode.htm" />
   <HelpKINode Title="CreateBackground method" Url="html/M_GeonBit_Managers_GraphicsManager_CreateBackground.htm" />
+  <HelpKINode Title="CreateEffect method" Url="html/M_GeonBit_Core_Graphics_Materials_LitMaterial_CreateEffect.htm" />
   <HelpKINode Title="CreateOctree method" Url="html/M_GeonBit_ECS_GameObject_CreateOctree.htm" />
   <HelpKINode Title="CreateShape method">
     <HelpKINode Title="Box2dInfo.CreateShape Method " Url="html/M_GeonBit_ECS_Components_Physics_Box2dInfo_CreateShape.htm" />
@@ -1058,6 +1096,10 @@
     <HelpKINode Title="MaterialAPI.DiffuseColor Property " Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_DiffuseColor.htm" />
     <HelpKINode Title="MaterialOverrides.DiffuseColor Property " Url="html/P_GeonBit_Core_Graphics_MaterialOverrides_DiffuseColor.htm" />
   </HelpKINode>
+  <HelpKINode Title="Direction property">
+    <HelpKINode Title="Light.Direction Property " Url="html/P_GeonBit_ECS_Components_Graphics_Light_Direction.htm" />
+    <HelpKINode Title="LightSource.Direction Property " Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Direction.htm" />
+  </HelpKINode>
   <HelpKINode Title="DisableCulling field" Url="html/F_GeonBit_Core_Graphics_Node_DisableCulling.htm" />
   <HelpKINode Title="DisableUpdateEvents field" Url="html/F_GeonBit_ECS_GameObject_DisableUpdateEvents.htm" />
   <HelpKINode Title="DistanceFadeFactor field" Url="html/F_GeonBit_ECS_Components_Sound_SoundEffect_DistanceFadeFactor.htm" />
@@ -1073,7 +1115,7 @@
     <HelpKINode Title="SkinnedModelEntity.DoEntityDraw Method " Url="html/M_GeonBit_Core_Graphics_SkinnedModelEntity_DoEntityDraw.htm" />
     <HelpKINode Title="SpriteEntity.DoEntityDraw Method " Url="html/M_GeonBit_Core_Graphics_SpriteEntity_DoEntityDraw.htm" />
   </HelpKINode>
-  <HelpKINode Title="Doodads field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Doodads.htm" />
+  <HelpKINode Title="Doodads field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Doodads.htm" />
   <HelpKINode Title="DoOnUpdate method" Url="html/M_GeonBit_ECS_GameObject_DoOnUpdate.htm" />
   <HelpKINode Title="Down enumeration member">
     <HelpKINode Title="GameKeys Enumeration" Url="html/T_GeonBit_Input_GameKeys.htm" />
@@ -1112,8 +1154,8 @@
     <HelpKINode Title="SoundEffect.Duration Property " Url="html/P_GeonBit_ECS_Components_Sound_SoundEffect_Duration.htm" />
     <HelpKINode Title="SoundPlayer.Duration Property " Url="html/P_GeonBit_Core_Sound_SoundPlayer_Duration.htm" />
   </HelpKINode>
-  <HelpKINode Title="DynamicObjects field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_DynamicObjects.htm" />
-  <HelpKINode Title="DynamicTargets field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_DynamicTargets.htm" />
+  <HelpKINode Title="DynamicObjects field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_DynamicObjects.htm" />
+  <HelpKINode Title="DynamicTargets field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_DynamicTargets.htm" />
   <HelpKINode Title="E enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="EasyManagersGetters class">
     <HelpKINode Title="EasyManagersGetters Class" Url="html/T_GeonBit_Managers_EasyManagersGetters.htm" />
@@ -1140,6 +1182,7 @@
   <HelpKINode Title="Effect property">
     <HelpKINode Title="AlphaTestMaterial.Effect Property " Url="html/P_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_Effect.htm" />
     <HelpKINode Title="BasicMaterial.Effect Property " Url="html/P_GeonBit_Core_Graphics_Materials_BasicMaterial_Effect.htm" />
+    <HelpKINode Title="LitMaterial.Effect Property " Url="html/P_GeonBit_Core_Graphics_Materials_LitMaterial_Effect.htm" />
     <HelpKINode Title="MaterialAPI.Effect Property " Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_Effect.htm" />
     <HelpKINode Title="SkinnedMaterial.Effect Property " Url="html/P_GeonBit_Core_Graphics_Materials_SkinnedMaterial_Effect.htm" />
     <HelpKINode Title="SkyboxMaterial.Effect Property " Url="html/P_GeonBit_Core_Graphics_Materials_SkyboxMaterial_Effect.htm" />
@@ -1147,8 +1190,11 @@
   <HelpKINode Title="EffectPassCallback delegate" Url="html/T_GeonBit_Core_Graphics_Materials_EffectPassCallback.htm" />
   <HelpKINode Title="Effects enumeration member" Url="html/T_GeonBit_Core_Graphics_RenderingQueue.htm" />
   <HelpKINode Title="EffectsOverlay enumeration member" Url="html/T_GeonBit_Core_Graphics_RenderingQueue.htm" />
+  <HelpKINode Title="EffectsPath field" Url="html/F_GeonBit_Core_Graphics_Materials_MaterialAPI_EffectsPath.htm" />
   <HelpKINode Title="EffectsUnordered enumeration member" Url="html/T_GeonBit_Core_Graphics_RenderingQueue.htm" />
   <HelpKINode Title="ElapsedTime property" Url="html/P_GeonBit_Managers_TimeManager_ElapsedTime.htm" />
+  <HelpKINode Title="EmissiveLight enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
+  <HelpKINode Title="EmissiveLight property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_EmissiveLight.htm" />
   <HelpKINode Title="Emitter property" Url="html/P_GeonBit_Core_Sound_SoundPlayer_Emitter.htm" />
   <HelpKINode Title="Empty property" Url="html/P_GeonBit_Core_Graphics_Node_Empty.htm" />
   <HelpKINode Title="Enable3D method" Url="html/M_GeonBit_ECS_Components_Sound_SoundEffect_Enable3D.htm" />
@@ -1160,6 +1206,8 @@
   <HelpKINode Title="EnableSimulation property">
     <HelpKINode Title="BasePhysicsComponent.EnableSimulation Property " Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_EnableSimulation.htm" />
     <HelpKINode Title="BasicPhysicalBody.EnableSimulation Property " Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_EnableSimulation.htm" />
+    <HelpKINode Title="KinematicBody.EnableSimulation Property " Url="html/P_GeonBit_Core_Physics_KinematicBody_EnableSimulation.htm" />
+    <HelpKINode Title="StaticBody.EnableSimulation Property " Url="html/P_GeonBit_Core_Physics_StaticBody_EnableSimulation.htm" />
   </HelpKINode>
   <HelpKINode Title="EnableVsync field" Url="html/F_GeonBit_GeonBitGame__InitParams_EnableVsync.htm" />
   <HelpKINode Title="End enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
@@ -1179,8 +1227,8 @@
   <HelpKINode Title="EndlessPlaneInfo.EndlessPlaneInfo constructor" Url="html/M_GeonBit_ECS_Components_Physics_EndlessPlaneInfo__ctor.htm" />
   <HelpKINode Title="EndlessPlaneInfo.Normal field" Url="html/F_GeonBit_ECS_Components_Physics_EndlessPlaneInfo_Normal.htm" />
   <HelpKINode Title="EndlessPlaneInfo.ShapeType property" Url="html/P_GeonBit_ECS_Components_Physics_EndlessPlaneInfo_ShapeType.htm" />
-  <HelpKINode Title="Enemies field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Enemies.htm" />
-  <HelpKINode Title="EnemyProjectiles field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_EnemyProjectiles.htm" />
+  <HelpKINode Title="Enemies field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Enemies.htm" />
+  <HelpKINode Title="EnemyProjectiles field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_EnemyProjectiles.htm" />
   <HelpKINode Title="Enter enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="EntitiesDrawCount property" Url="html/P_GeonBit_Managers_Diagnostic_EntitiesDrawCount.htm" />
   <HelpKINode Title="EntityEventCallback delegate" Url="html/T_GeonBit_Core_Graphics_EntityEventCallback.htm" />
@@ -1287,7 +1335,8 @@
   </HelpKINode>
   <HelpKINode Title="FixedUpdateInterval property" Url="html/P_GeonBit_Managers_TimeManager_FixedUpdateInterval.htm" />
   <HelpKINode Title="FlipYZ field" Url="html/F_GeonBit_Core_Graphics_Materials_SkyboxMaterial_FlipYZ.htm" />
-  <HelpKINode Title="ForceField field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_ForceField.htm" />
+  <HelpKINode Title="Fog enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
+  <HelpKINode Title="ForceField field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_ForceField.htm" />
   <HelpKINode Title="ForceFullUpdate method" Url="html/M_GeonBit_Core_Graphics_Node_ForceFullUpdate.htm" />
   <HelpKINode Title="ForceScreenSize property">
     <HelpKINode Title="Camera.ForceScreenSize Property " Url="html/P_GeonBit_ECS_Components_Graphics_Camera_ForceScreenSize.htm" />
@@ -1305,9 +1354,9 @@
     <HelpKINode Title="BasePhysicsComponent.Friction Property " Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_Friction.htm" />
     <HelpKINode Title="BasicPhysicalBody.Friction Property " Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_Friction.htm" />
   </HelpKINode>
-  <HelpKINode Title="FriendlyTargets field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_FriendlyTargets.htm" />
-  <HelpKINode Title="FriendProjectiles field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_FriendProjectiles.htm" />
-  <HelpKINode Title="Friends field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Friends.htm" />
+  <HelpKINode Title="FriendlyTargets field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_FriendlyTargets.htm" />
+  <HelpKINode Title="FriendProjectiles field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_FriendProjectiles.htm" />
+  <HelpKINode Title="Friends field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Friends.htm" />
   <HelpKINode Title="FromAlpha property" Url="html/P_GeonBit_ECS_Components_Particles_Animators_FadeAnimator_FromAlpha.htm" />
   <HelpKINode Title="FromColor property" Url="html/P_GeonBit_ECS_Components_Particles_Animators_ColorAnimator_FromColor.htm" />
   <HelpKINode Title="FromScale property" Url="html/P_GeonBit_ECS_Components_Particles_Animators_ScaleAnimator_FromScale.htm" />
@@ -1452,6 +1501,7 @@
   <HelpKINode Title="GameScene.Draw method" Url="html/M_GeonBit_ECS_GameScene_Draw.htm" />
   <HelpKINode Title="GameScene.FixedUpdate method" Url="html/M_GeonBit_ECS_GameScene_FixedUpdate.htm" />
   <HelpKINode Title="GameScene.GameScene constructor" Url="html/M_GeonBit_ECS_GameScene__ctor.htm" />
+  <HelpKINode Title="GameScene.Lights field" Url="html/F_GeonBit_ECS_GameScene_Lights.htm" />
   <HelpKINode Title="GameScene.Load method" Url="html/M_GeonBit_ECS_GameScene_Load.htm" />
   <HelpKINode Title="GameScene.Physics property" Url="html/P_GeonBit_ECS_GameScene_Physics.htm" />
   <HelpKINode Title="GameScene.Root property" Url="html/P_GeonBit_ECS_GameScene_Root.htm" />
@@ -1478,13 +1528,19 @@
   <HelpKINode Title="GeonBit.Core.Graphics.EntityEventCallback delegate" Url="html/T_GeonBit_Core_Graphics_EntityEventCallback.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.GraphicsManager class" Url="html/T_GeonBit_Core_Graphics_GraphicsManager.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.IEntity interface" Url="html/T_GeonBit_Core_Graphics_IEntity.htm" />
+  <HelpKINode Title="GeonBit.Core.Graphics.Lights namespace" Url="html/N_GeonBit_Core_Graphics_Lights.htm" />
+  <HelpKINode Title="GeonBit.Core.Graphics.Lights.ILightsManager interface" Url="html/T_GeonBit_Core_Graphics_Lights_ILightsManager.htm" />
+  <HelpKINode Title="GeonBit.Core.Graphics.Lights.LightsManager class" Url="html/T_GeonBit_Core_Graphics_Lights_LightsManager.htm" />
+  <HelpKINode Title="GeonBit.Core.Graphics.Lights.LightSource class" Url="html/T_GeonBit_Core_Graphics_Lights_LightSource.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.MaterialOverrides class" Url="html/T_GeonBit_Core_Graphics_MaterialOverrides.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.Materials namespace" Url="html/N_GeonBit_Core_Graphics_Materials.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.Materials.AlphaTestMaterial class" Url="html/T_GeonBit_Core_Graphics_Materials_AlphaTestMaterial.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.Materials.BasicMaterial class" Url="html/T_GeonBit_Core_Graphics_Materials_BasicMaterial.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.Materials.DefaultMaterialsFactory class" Url="html/T_GeonBit_Core_Graphics_Materials_DefaultMaterialsFactory.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.Materials.EffectPassCallback delegate" Url="html/T_GeonBit_Core_Graphics_Materials_EffectPassCallback.htm" />
+  <HelpKINode Title="GeonBit.Core.Graphics.Materials.LitMaterial class" Url="html/T_GeonBit_Core_Graphics_Materials_LitMaterial.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.Materials.MaterialAPI class" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialAPI.htm" />
+  <HelpKINode Title="GeonBit.Core.Graphics.Materials.MaterialDirtyFlags enumeration" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.Materials.MaterialGenerator delegate" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialGenerator.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.Materials.MaterialTypes enumeration" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialTypes.htm" />
   <HelpKINode Title="GeonBit.Core.Graphics.Materials.SamplerStates class" Url="html/T_GeonBit_Core_Graphics_Materials_SamplerStates.htm" />
@@ -1508,12 +1564,15 @@
   <HelpKINode Title="GeonBit.Core.Graphics.SpriteSheetStep class" Url="html/T_GeonBit_Core_Graphics_SpriteSheetStep.htm" />
   <HelpKINode Title="GeonBit.Core.Physics namespace" Url="html/N_GeonBit_Core_Physics.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.BasicPhysicalBody class" Url="html/T_GeonBit_Core_Physics_BasicPhysicalBody.htm" />
-  <HelpKINode Title="GeonBit.Core.Physics.CollisionData class" Url="html/T_GeonBit_Core_Physics_CollisionData.htm" />
+  <HelpKINode Title="GeonBit.Core.Physics.CollisionData structure" Url="html/T_GeonBit_Core_Physics_CollisionData.htm" />
+  <HelpKINode Title="GeonBit.Core.Physics.CollisionGroups class" Url="html/T_GeonBit_Core_Physics_CollisionGroups.htm" />
+  <HelpKINode Title="GeonBit.Core.Physics.CollisionMasks class" Url="html/T_GeonBit_Core_Physics_CollisionMasks.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.CollisionShapes namespace" Url="html/N_GeonBit_Core_Physics_CollisionShapes.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.CollisionShapes.CapsuleDirectionAxis enumeration" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CapsuleDirectionAxis.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.CollisionShapes.CollisionBox class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionBox.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.CollisionShapes.CollisionBox2D class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionBox2D.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.CollisionShapes.CollisionCapsule class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionCapsule.htm" />
+  <HelpKINode Title="GeonBit.Core.Physics.CollisionShapes.CollisionCompoundShape class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.CollisionShapes.CollisionCone class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionCone.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.CollisionShapes.CollisionConvexHull class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionConvexHull.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.CollisionShapes.CollisionCylinder class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_CollisionCylinder.htm" />
@@ -1530,6 +1589,7 @@
   <HelpKINode Title="GeonBit.Core.Physics.RaycastResults structure" Url="html/T_GeonBit_Core_Physics_RaycastResults.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.RaycastResults.SingleResult structure" Url="html/T_GeonBit_Core_Physics_RaycastResults_SingleResult.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.RigidBody class" Url="html/T_GeonBit_Core_Physics_RigidBody.htm" />
+  <HelpKINode Title="GeonBit.Core.Physics.StaticBody class" Url="html/T_GeonBit_Core_Physics_StaticBody.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.ToBullet class" Url="html/T_GeonBit_Core_Physics_ToBullet.htm" />
   <HelpKINode Title="GeonBit.Core.Physics.ToMonoGame class" Url="html/T_GeonBit_Core_Physics_ToMonoGame.htm" />
   <HelpKINode Title="GeonBit.Core.ResourcesManager class" Url="html/T_GeonBit_Core_ResourcesManager.htm" />
@@ -1552,6 +1612,7 @@
   <HelpKINode Title="GeonBit.ECS.Components.Graphics.Camera class" Url="html/T_GeonBit_ECS_Components_Graphics_Camera.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Graphics.CombinedMeshesRenderer class" Url="html/T_GeonBit_ECS_Components_Graphics_CombinedMeshesRenderer.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Graphics.CompositeModelRenderer class" Url="html/T_GeonBit_ECS_Components_Graphics_CompositeModelRenderer.htm" />
+  <HelpKINode Title="GeonBit.ECS.Components.Graphics.Light class" Url="html/T_GeonBit_ECS_Components_Graphics_Light.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Graphics.ModelMeshRenderer class" Url="html/T_GeonBit_ECS_Components_Graphics_ModelMeshRenderer.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Graphics.ModelRenderer class" Url="html/T_GeonBit_ECS_Components_Graphics_ModelRenderer.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Graphics.SceneBackground class" Url="html/T_GeonBit_ECS_Components_Graphics_SceneBackground.htm" />
@@ -1585,8 +1646,6 @@
   <HelpKINode Title="GeonBit.ECS.Components.Physics.Box2dInfo class" Url="html/T_GeonBit_ECS_Components_Physics_Box2dInfo.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Physics.BoxInfo class" Url="html/T_GeonBit_ECS_Components_Physics_BoxInfo.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Physics.CapsuleInfo class" Url="html/T_GeonBit_ECS_Components_Physics_CapsuleInfo.htm" />
-  <HelpKINode Title="GeonBit.ECS.Components.Physics.CollisionGroups class" Url="html/T_GeonBit_ECS_Components_Physics_CollisionGroups.htm" />
-  <HelpKINode Title="GeonBit.ECS.Components.Physics.CollisionMasks class" Url="html/T_GeonBit_ECS_Components_Physics_CollisionMasks.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Physics.ConeInfo class" Url="html/T_GeonBit_ECS_Components_Physics_ConeInfo.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Physics.ConvexHullInfo class" Url="html/T_GeonBit_ECS_Components_Physics_ConvexHullInfo.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Physics.CylinderInfo class" Url="html/T_GeonBit_ECS_Components_Physics_CylinderInfo.htm" />
@@ -1596,6 +1655,7 @@
   <HelpKINode Title="GeonBit.ECS.Components.Physics.PhysicalBodyShapeTypes enumeration" Url="html/T_GeonBit_ECS_Components_Physics_PhysicalBodyShapeTypes.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Physics.RigidBody class" Url="html/T_GeonBit_ECS_Components_Physics_RigidBody.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Physics.SphereInfo class" Url="html/T_GeonBit_ECS_Components_Physics_SphereInfo.htm" />
+  <HelpKINode Title="GeonBit.ECS.Components.Physics.StaticBody class" Url="html/T_GeonBit_ECS_Components_Physics_StaticBody.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Physics.TriangleInfo class" Url="html/T_GeonBit_ECS_Components_Physics_TriangleInfo.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.ReceivedMessageFlowControl enumeration" Url="html/T_GeonBit_ECS_Components_ReceivedMessageFlowControl.htm" />
   <HelpKINode Title="GeonBit.ECS.Components.Sound namespace" Url="html/N_GeonBit_ECS_Components_Sound.htm" />
@@ -1705,10 +1765,18 @@
   <HelpKINode Title="GetCustomType&lt;T&gt; method" Url="html/M_GeonBit_Core_ResourcesManager_GetCustomType__1.htm" />
   <HelpKINode Title="GetDebugString method" Url="html/M_GeonBit_Core_Graphics_Node_GetDebugString.htm" />
   <HelpKINode Title="GetDefaultMaterial method" Url="html/M_GeonBit_Core_Graphics_Materials_DefaultMaterialsFactory_GetDefaultMaterial.htm" />
+  <HelpKINode Title="GetEffect method" Url="html/M_GeonBit_Core_ResourcesManager_GetEffect.htm" />
+  <HelpKINode Title="GetFloatBuffer method" Url="html/M_GeonBit_Core_Graphics_Lights_LightSource_GetFloatBuffer.htm" />
   <HelpKINode Title="GetFrequency method" Url="html/M_GeonBit_ECS_Components_Particles_ParticleType_GetFrequency.htm" />
   <HelpKINode Title="GetImplementedFrameBasedEvents method" Url="html/M_GeonBit_ECS_Components_BaseComponent_GetImplementedFrameBasedEvents.htm" />
   <HelpKINode Title="GetKeyboardInput method" Url="html/M_GeonBit_Managers_GameInput_GetKeyboardInput.htm" />
+  <HelpKINode Title="GetLastBoundingBox method" Url="html/M_GeonBit_Core_Graphics_BaseRenderableEntity_GetLastBoundingBox.htm" />
+  <HelpKINode Title="GetLastBoundingSphere method" Url="html/M_GeonBit_Core_Graphics_BaseRenderableEntity_GetLastBoundingSphere.htm" />
   <HelpKINode Title="GetLeftVector method" Url="html/M_GeonBit_Core_Utils_ExtendedMath_GetLeftVector.htm" />
+  <HelpKINode Title="GetLights method">
+    <HelpKINode Title="ILightsManager.GetLights Method " Url="html/M_GeonBit_Core_Graphics_Lights_ILightsManager_GetLights.htm" />
+    <HelpKINode Title="LightsManager.GetLights Method " Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager_GetLights.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetMaterial method">
     <HelpKINode Title="MeshEntity.GetMaterial Method " Url="html/M_GeonBit_Core_Graphics_MeshEntity_GetMaterial.htm" />
     <HelpKINode Title="ModelEntity.GetMaterial Method " Url="html/M_GeonBit_Core_Graphics_ModelEntity_GetMaterial.htm" />
@@ -1745,18 +1813,19 @@
   <HelpKINode Title="GraphicsDevice field" Url="html/F_GeonBit_Core_Graphics_GraphicsManager_GraphicsDevice.htm" />
   <HelpKINode Title="GraphicsDeviceManager field" Url="html/F_GeonBit_Core_Graphics_GraphicsManager_GraphicsDeviceManager.htm" />
   <HelpKINode Title="GraphicsManager class">
-    <HelpKINode Title="GraphicsManager Class" Url="html/T_GeonBit_Core_Graphics_GraphicsManager.htm" />
     <HelpKINode Title="GraphicsManager Class" Url="html/T_GeonBit_Managers_GraphicsManager.htm" />
+    <HelpKINode Title="GraphicsManager Class" Url="html/T_GeonBit_Core_Graphics_GraphicsManager.htm" />
     <HelpKINode Title="about GraphicsManager class" Url="html/T_GeonBit_Managers_GraphicsManager.htm" />
     <HelpKINode Title="about GraphicsManager class" Url="html/T_GeonBit_Core_Graphics_GraphicsManager.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_Core_Graphics_GraphicsManager.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Graphics_GraphicsManager.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Managers_GraphicsManager.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Graphics_GraphicsManager.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Graphics_GraphicsManager.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Managers_GraphicsManager.htm" />
   </HelpKINode>
   <HelpKINode Title="GraphicsManager property" Url="html/P_GeonBit_Managers_EasyManagersGetters_GraphicsManager.htm" />
   <HelpKINode Title="GraphicsManager.ActiveCamera field" Url="html/F_GeonBit_Core_Graphics_GraphicsManager_ActiveCamera.htm" />
+  <HelpKINode Title="GraphicsManager.ActiveLightsManager property" Url="html/P_GeonBit_Core_Graphics_GraphicsManager_ActiveLightsManager.htm" />
   <HelpKINode Title="GraphicsManager.CreateBackground method" Url="html/M_GeonBit_Managers_GraphicsManager_CreateBackground.htm" />
   <HelpKINode Title="GraphicsManager.CreateSkybox method" Url="html/M_GeonBit_Managers_GraphicsManager_CreateSkybox.htm" />
   <HelpKINode Title="GraphicsManager.Draw method" Url="html/M_GeonBit_Managers_GraphicsManager_Draw.htm" />
@@ -1768,8 +1837,8 @@
   <HelpKINode Title="GraphicsManager.GraphicsDevice field" Url="html/F_GeonBit_Core_Graphics_GraphicsManager_GraphicsDevice.htm" />
   <HelpKINode Title="GraphicsManager.GraphicsDeviceManager field" Url="html/F_GeonBit_Core_Graphics_GraphicsManager_GraphicsDeviceManager.htm" />
   <HelpKINode Title="GraphicsManager.Initialize method">
-    <HelpKINode Title="GraphicsManager.Initialize Method " Url="html/M_GeonBit_Managers_GraphicsManager_Initialize.htm" />
     <HelpKINode Title="GraphicsManager.Initialize Method " Url="html/M_GeonBit_Core_Graphics_GraphicsManager_Initialize.htm" />
+    <HelpKINode Title="GraphicsManager.Initialize Method " Url="html/M_GeonBit_Managers_GraphicsManager_Initialize.htm" />
   </HelpKINode>
   <HelpKINode Title="GraphicsManager.Instance property" Url="html/P_GeonBit_Managers_GraphicsManager_Instance.htm" />
   <HelpKINode Title="GraphicsManager.ScreenSize property" Url="html/P_GeonBit_Managers_GraphicsManager_ScreenSize.htm" />
@@ -1817,10 +1886,9 @@
   <HelpKINode Title="ICollisionShape class">
     <HelpKINode Title="ICollisionShape Class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_ICollisionShape.htm" />
     <HelpKINode Title="about ICollisionShape class" Url="html/T_GeonBit_Core_Physics_CollisionShapes_ICollisionShape.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_Core_Physics_CollisionShapes_ICollisionShape__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_CollisionShapes_ICollisionShape.htm" />
   </HelpKINode>
-  <HelpKINode Title="ICollisionShape.ICollisionShape constructor" Url="html/M_GeonBit_Core_Physics_CollisionShapes_ICollisionShape__ctor.htm" />
+  <HelpKINode Title="ICollisionShape.Clone method" Url="html/M_GeonBit_Core_Physics_CollisionShapes_ICollisionShape_Clone.htm" />
   <HelpKINode Title="IComponent class">
     <HelpKINode Title="IComponent Class" Url="html/T_GeonBit_ECS_Components_IComponent.htm" />
     <HelpKINode Title="about IComponent class" Url="html/T_GeonBit_ECS_Components_IComponent.htm" />
@@ -1840,6 +1908,17 @@
   <HelpKINode Title="IEntity.GetBoundingBox method" Url="html/M_GeonBit_Core_Graphics_IEntity_GetBoundingBox.htm" />
   <HelpKINode Title="IEntity.GetBoundingSphere method" Url="html/M_GeonBit_Core_Graphics_IEntity_GetBoundingSphere.htm" />
   <HelpKINode Title="IEntity.Visible property" Url="html/P_GeonBit_Core_Graphics_IEntity_Visible.htm" />
+  <HelpKINode Title="ILightsManager interface">
+    <HelpKINode Title="ILightsManager Interface" Url="html/T_GeonBit_Core_Graphics_Lights_ILightsManager.htm" />
+    <HelpKINode Title="about ILightsManager interface" Url="html/T_GeonBit_Core_Graphics_Lights_ILightsManager.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Graphics_Lights_ILightsManager.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Graphics_Lights_ILightsManager.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILightsManager.AddLight method" Url="html/M_GeonBit_Core_Graphics_Lights_ILightsManager_AddLight.htm" />
+  <HelpKINode Title="ILightsManager.AmbientLight property" Url="html/P_GeonBit_Core_Graphics_Lights_ILightsManager_AmbientLight.htm" />
+  <HelpKINode Title="ILightsManager.GetLights method" Url="html/M_GeonBit_Core_Graphics_Lights_ILightsManager_GetLights.htm" />
+  <HelpKINode Title="ILightsManager.RemoveLight method" Url="html/M_GeonBit_Core_Graphics_Lights_ILightsManager_RemoveLight.htm" />
+  <HelpKINode Title="ILightsManager.UpdateLightTransform method" Url="html/M_GeonBit_Core_Graphics_Lights_ILightsManager_UpdateLightTransform.htm" />
   <HelpKINode Title="IManager interface">
     <HelpKINode Title="IManager Interface" Url="html/T_GeonBit_Managers_IManager.htm" />
     <HelpKINode Title="about IManager interface" Url="html/T_GeonBit_Managers_IManager.htm" />
@@ -1888,6 +1967,10 @@
     <HelpKINode Title="SoundManager.Instance Property " Url="html/P_GeonBit_Managers_SoundManager_Instance.htm" />
     <HelpKINode Title="TimeManager.Instance Property " Url="html/P_GeonBit_Managers_TimeManager_Instance.htm" />
   </HelpKINode>
+  <HelpKINode Title="Intensity property">
+    <HelpKINode Title="Light.Intensity Property " Url="html/P_GeonBit_ECS_Components_Graphics_Light_Intensity.htm" />
+    <HelpKINode Title="LightSource.Intensity Property " Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Intensity.htm" />
+  </HelpKINode>
   <HelpKINode Title="Interact enumeration member" Url="html/T_GeonBit_Input_GameKeys.htm" />
   <HelpKINode Title="InternalError class">
     <HelpKINode Title="InternalError Class" Url="html/T_GeonBit_Exceptions_InternalError.htm" />
@@ -1935,6 +2018,10 @@
     <HelpKINode Title="BaseRenderableEntity.IsDebugEntity Property " Url="html/P_GeonBit_Core_Graphics_BaseRenderableEntity_IsDebugEntity.htm" />
     <HelpKINode Title="BoundingBoxEntity.IsDebugEntity Property " Url="html/P_GeonBit_Core_Graphics_BoundingBoxEntity_IsDebugEntity.htm" />
   </HelpKINode>
+  <HelpKINode Title="IsDirectionalLight property">
+    <HelpKINode Title="Light.IsDirectionalLight Property " Url="html/P_GeonBit_ECS_Components_Graphics_Light_IsDirectionalLight.htm" />
+    <HelpKINode Title="LightSource.IsDirectionalLight Property " Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_IsDirectionalLight.htm" />
+  </HelpKINode>
   <HelpKINode Title="IsDirty property" Url="html/P_GeonBit_Core_Physics_RigidBody_IsDirty.htm" />
   <HelpKINode Title="IsEthereal property">
     <HelpKINode Title="BasePhysicsComponent.IsEthereal Property " Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_IsEthereal.htm" />
@@ -1942,6 +2029,10 @@
   </HelpKINode>
   <HelpKINode Title="IsIdle property" Url="html/P_GeonBit_ECS_Components_Graphics_SkinnedModelRenderer_IsIdle.htm" />
   <HelpKINode Title="IsInActiveScene property" Url="html/P_GeonBit_ECS_GameObject_IsInActiveScene.htm" />
+  <HelpKINode Title="IsInfinite property">
+    <HelpKINode Title="Light.IsInfinite Property " Url="html/P_GeonBit_ECS_Components_Graphics_Light_IsInfinite.htm" />
+    <HelpKINode Title="LightSource.IsInfinite Property " Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_IsInfinite.htm" />
+  </HelpKINode>
   <HelpKINode Title="IsInScene property" Url="html/P_GeonBit_ECS_GameObject_IsInScene.htm" />
   <HelpKINode Title="IsInScreen property">
     <HelpKINode Title="BoundingBoxCullingNode.IsInScreen Property " Url="html/P_GeonBit_Core_Graphics_BoundingBoxCullingNode_IsInScreen.htm" />
@@ -1953,6 +2044,12 @@
   <HelpKINode Title="IsKeyDown method" Url="html/M_GeonBit_Managers_GameInput_IsKeyDown.htm" />
   <HelpKINode Title="IsKeyPressed method" Url="html/M_GeonBit_Managers_GameInput_IsKeyPressed.htm" />
   <HelpKINode Title="IsKeyReleased method" Url="html/M_GeonBit_Managers_GameInput_IsKeyReleased.htm" />
+  <HelpKINode Title="IsKinematic property">
+    <HelpKINode Title="BasePhysicsComponent.IsKinematic Property " Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_IsKinematic.htm" />
+    <HelpKINode Title="BasicPhysicalBody.IsKinematic Property " Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_IsKinematic.htm" />
+    <HelpKINode Title="KinematicBody.IsKinematic Property " Url="html/P_GeonBit_Core_Physics_KinematicBody_IsKinematic.htm" />
+    <HelpKINode Title="StaticBody.IsKinematic Property " Url="html/P_GeonBit_Core_Physics_StaticBody_IsKinematic.htm" />
+  </HelpKINode>
   <HelpKINode Title="IsLooped field" Url="html/F_GeonBit_ECS_Components_Graphics_SkinnedModelRenderer_IsLooped.htm" />
   <HelpKINode Title="IsLooped property">
     <HelpKINode Title="SoundEffect.IsLooped Property " Url="html/P_GeonBit_ECS_Components_Sound_SoundEffect_IsLooped.htm" />
@@ -1976,6 +2073,11 @@
   </HelpKINode>
   <HelpKINode Title="IsRepeating property" Url="html/P_GeonBit_ECS_Components_Sound_BackgroundMusic_IsRepeating.htm" />
   <HelpKINode Title="IsRoot property" Url="html/P_GeonBit_ECS_GameObject_IsRoot.htm" />
+  <HelpKINode Title="IsStatic property">
+    <HelpKINode Title="BasePhysicsComponent.IsStatic Property " Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_IsStatic.htm" />
+    <HelpKINode Title="BasicPhysicalBody.IsStatic Property " Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_IsStatic.htm" />
+    <HelpKINode Title="StaticBody.IsStatic Property " Url="html/P_GeonBit_Core_Physics_StaticBody_IsStatic.htm" />
+  </HelpKINode>
   <HelpKINode Title="IsStopped property">
     <HelpKINode Title="SoundEffect.IsStopped Property " Url="html/P_GeonBit_ECS_Components_Sound_SoundEffect_IsStopped.htm" />
     <HelpKINode Title="SoundPlayer.IsStopped Property " Url="html/P_GeonBit_Core_Sound_SoundPlayer_IsStopped.htm" />
@@ -1997,13 +2099,12 @@
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_ECS_Components_Physics_KinematicBody.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_ECS_Components_Physics_KinematicBody.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_KinematicBody.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Physics_KinematicBody.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_ECS_Components_Physics_KinematicBody.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Physics_KinematicBody.htm" />
   </HelpKINode>
-  <HelpKINode Title="KinematicBody.CallCollisionEnd method" Url="html/Overload_GeonBit_ECS_Components_Physics_KinematicBody_CallCollisionEnd.htm" />
-  <HelpKINode Title="KinematicBody.CallCollisionProcess method" Url="html/Overload_GeonBit_ECS_Components_Physics_KinematicBody_CallCollisionProcess.htm" />
-  <HelpKINode Title="KinematicBody.CallCollisionStart method" Url="html/Overload_GeonBit_ECS_Components_Physics_KinematicBody_CallCollisionStart.htm" />
   <HelpKINode Title="KinematicBody.Clone method" Url="html/M_GeonBit_ECS_Components_Physics_KinematicBody_Clone.htm" />
+  <HelpKINode Title="KinematicBody.EnableSimulation property" Url="html/P_GeonBit_Core_Physics_KinematicBody_EnableSimulation.htm" />
+  <HelpKINode Title="KinematicBody.IsKinematic property" Url="html/P_GeonBit_Core_Physics_KinematicBody_IsKinematic.htm" />
   <HelpKINode Title="KinematicBody.KinematicBody constructor">
     <HelpKINode Title="KinematicBody Constructor " Url="html/M_GeonBit_Core_Physics_KinematicBody__ctor.htm" />
     <HelpKINode Title="KinematicBody Constructor " Url="html/Overload_GeonBit_ECS_Components_Physics_KinematicBody__ctor.htm" />
@@ -2023,25 +2124,100 @@
   <HelpKINode Title="LeftControl enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="LeftShift enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="LeftWindows enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
-  <HelpKINode Title="LightingEnabled property">
-    <HelpKINode Title="MaterialAPI.LightingEnabled Property " Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_LightingEnabled.htm" />
-    <HelpKINode Title="MaterialOverrides.LightingEnabled Property " Url="html/P_GeonBit_Core_Graphics_MaterialOverrides_LightingEnabled.htm" />
+  <HelpKINode Title="Light class">
+    <HelpKINode Title="Light Class" Url="html/T_GeonBit_ECS_Components_Graphics_Light.htm" />
+    <HelpKINode Title="about Light class" Url="html/T_GeonBit_ECS_Components_Graphics_Light.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_ECS_Components_Graphics_Light__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_ECS_Components_Graphics_Light.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_ECS_Components_Graphics_Light.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_ECS_Components_Graphics_Light.htm" />
   </HelpKINode>
+  <HelpKINode Title="Light.Clone method" Url="html/M_GeonBit_ECS_Components_Graphics_Light_Clone.htm" />
+  <HelpKINode Title="Light.Color property" Url="html/P_GeonBit_ECS_Components_Graphics_Light_Color.htm" />
+  <HelpKINode Title="Light.Direction property" Url="html/P_GeonBit_ECS_Components_Graphics_Light_Direction.htm" />
+  <HelpKINode Title="Light.Intensity property" Url="html/P_GeonBit_ECS_Components_Graphics_Light_Intensity.htm" />
+  <HelpKINode Title="Light.IsDirectionalLight property" Url="html/P_GeonBit_ECS_Components_Graphics_Light_IsDirectionalLight.htm" />
+  <HelpKINode Title="Light.IsInfinite property" Url="html/P_GeonBit_ECS_Components_Graphics_Light_IsInfinite.htm" />
+  <HelpKINode Title="Light.Light constructor" Url="html/M_GeonBit_ECS_Components_Graphics_Light__ctor.htm" />
+  <HelpKINode Title="Light.Range property" Url="html/P_GeonBit_ECS_Components_Graphics_Light_Range.htm" />
+  <HelpKINode Title="Light.Specular property" Url="html/P_GeonBit_ECS_Components_Graphics_Light_Specular.htm" />
+  <HelpKINode Title="LightingEnabled property">
+    <HelpKINode Title="LitMaterial.LightingEnabled Property " Url="html/P_GeonBit_Core_Graphics_Materials_LitMaterial_LightingEnabled.htm" />
+    <HelpKINode Title="MaterialAPI.LightingEnabled Property " Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_LightingEnabled.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LightingParams enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
+  <HelpKINode Title="Lights field" Url="html/F_GeonBit_ECS_GameScene_Lights.htm" />
+  <HelpKINode Title="LightsManager class">
+    <HelpKINode Title="LightsManager Class" Url="html/T_GeonBit_Core_Graphics_Lights_LightsManager.htm" />
+    <HelpKINode Title="about LightsManager class" Url="html/T_GeonBit_Core_Graphics_Lights_LightsManager.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_Core_Graphics_Lights_LightsManager.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Graphics_Lights_LightsManager.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Graphics_Lights_LightsManager.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LightsManager.AddLight method" Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager_AddLight.htm" />
+  <HelpKINode Title="LightsManager.AmbientLight property" Url="html/P_GeonBit_Core_Graphics_Lights_LightsManager_AmbientLight.htm" />
+  <HelpKINode Title="LightsManager.GetLights method" Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager_GetLights.htm" />
+  <HelpKINode Title="LightsManager.LightsManager constructor" Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager__ctor.htm" />
+  <HelpKINode Title="LightsManager.LightsRegionSize property" Url="html/P_GeonBit_Core_Graphics_Lights_LightsManager_LightsRegionSize.htm" />
+  <HelpKINode Title="LightsManager.MaxLightsPerRender field" Url="html/F_GeonBit_Core_Graphics_Lights_LightsManager_MaxLightsPerRender.htm" />
+  <HelpKINode Title="LightsManager.RemoveLight method" Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager_RemoveLight.htm" />
+  <HelpKINode Title="LightsManager.UpdateLightTransform method" Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager_UpdateLightTransform.htm" />
+  <HelpKINode Title="LightSource class">
+    <HelpKINode Title="LightSource Class" Url="html/T_GeonBit_Core_Graphics_Lights_LightSource.htm" />
+    <HelpKINode Title="about LightSource class" Url="html/T_GeonBit_Core_Graphics_Lights_LightSource.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_Core_Graphics_Lights_LightSource__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_Core_Graphics_Lights_LightSource.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Graphics_Lights_LightSource.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Graphics_Lights_LightSource.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LightSource.BoundingSphere property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_BoundingSphere.htm" />
+  <HelpKINode Title="LightSource.Color property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Color.htm" />
+  <HelpKINode Title="LightSource.Direction property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Direction.htm" />
+  <HelpKINode Title="LightSource.GetFloatBuffer method" Url="html/M_GeonBit_Core_Graphics_Lights_LightSource_GetFloatBuffer.htm" />
+  <HelpKINode Title="LightSource.Intensity property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Intensity.htm" />
+  <HelpKINode Title="LightSource.IsDirectionalLight property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_IsDirectionalLight.htm" />
+  <HelpKINode Title="LightSource.IsInfinite property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_IsInfinite.htm" />
+  <HelpKINode Title="LightSource.LightSource constructor" Url="html/M_GeonBit_Core_Graphics_Lights_LightSource__ctor.htm" />
+  <HelpKINode Title="LightSource.ParamsVersion property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_ParamsVersion.htm" />
+  <HelpKINode Title="LightSource.Position property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Position.htm" />
+  <HelpKINode Title="LightSource.Range property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Range.htm" />
+  <HelpKINode Title="LightSource.RecalcBoundingSphere method" Url="html/M_GeonBit_Core_Graphics_Lights_LightSource_RecalcBoundingSphere.htm" />
+  <HelpKINode Title="LightSource.Remove method" Url="html/M_GeonBit_Core_Graphics_Lights_LightSource_Remove.htm" />
+  <HelpKINode Title="LightSource.Specular property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Specular.htm" />
+  <HelpKINode Title="LightSource.UpdateTransforms method" Url="html/M_GeonBit_Core_Graphics_Lights_LightSource_UpdateTransforms.htm" />
+  <HelpKINode Title="LightSource.Visible field" Url="html/F_GeonBit_Core_Graphics_Lights_LightSource_Visible.htm" />
+  <HelpKINode Title="LightSources enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
+  <HelpKINode Title="LightsRegionSize property" Url="html/P_GeonBit_Core_Graphics_Lights_LightsManager_LightsRegionSize.htm" />
   <HelpKINode Title="LinearClamp property" Url="html/P_GeonBit_Core_Graphics_Materials_SamplerStates_LinearClamp.htm" />
   <HelpKINode Title="LinearDamping property">
     <HelpKINode Title="RigidBody.LinearDamping Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_LinearDamping.htm" />
     <HelpKINode Title="RigidBody.LinearDamping Property " Url="html/P_GeonBit_Core_Physics_RigidBody_LinearDamping.htm" />
   </HelpKINode>
   <HelpKINode Title="LinearFactor property">
-    <HelpKINode Title="RigidBody.LinearFactor Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_LinearFactor.htm" />
     <HelpKINode Title="RigidBody.LinearFactor Property " Url="html/P_GeonBit_Core_Physics_RigidBody_LinearFactor.htm" />
+    <HelpKINode Title="RigidBody.LinearFactor Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_LinearFactor.htm" />
   </HelpKINode>
   <HelpKINode Title="LinearVelocity property">
-    <HelpKINode Title="RigidBody.LinearVelocity Property " Url="html/P_GeonBit_Core_Physics_RigidBody_LinearVelocity.htm" />
     <HelpKINode Title="RigidBody.LinearVelocity Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_LinearVelocity.htm" />
+    <HelpKINode Title="RigidBody.LinearVelocity Property " Url="html/P_GeonBit_Core_Physics_RigidBody_LinearVelocity.htm" />
   </HelpKINode>
   <HelpKINode Title="Listener field" Url="html/F_GeonBit_ECS_Components_Sound_SoundEffect_Listener.htm" />
   <HelpKINode Title="Listener property" Url="html/P_GeonBit_Core_Sound_SoundPlayer_Listener.htm" />
+  <HelpKINode Title="LitMaterial class">
+    <HelpKINode Title="LitMaterial Class" Url="html/T_GeonBit_Core_Graphics_Materials_LitMaterial.htm" />
+    <HelpKINode Title="about LitMaterial class" Url="html/T_GeonBit_Core_Graphics_Materials_LitMaterial.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_Core_Graphics_Materials_LitMaterial__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_Core_Graphics_Materials_LitMaterial.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Graphics_Materials_LitMaterial.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Graphics_Materials_LitMaterial.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LitMaterial.Clone method" Url="html/M_GeonBit_Core_Graphics_Materials_LitMaterial_Clone.htm" />
+  <HelpKINode Title="LitMaterial.CreateEffect method" Url="html/M_GeonBit_Core_Graphics_Materials_LitMaterial_CreateEffect.htm" />
+  <HelpKINode Title="LitMaterial.Effect property" Url="html/P_GeonBit_Core_Graphics_Materials_LitMaterial_Effect.htm" />
+  <HelpKINode Title="LitMaterial.LightingEnabled property" Url="html/P_GeonBit_Core_Graphics_Materials_LitMaterial_LightingEnabled.htm" />
+  <HelpKINode Title="LitMaterial.LitMaterial constructor" Url="html/Overload_GeonBit_Core_Graphics_Materials_LitMaterial__ctor.htm" />
+  <HelpKINode Title="LitMaterial.MaxLightIntensity property" Url="html/P_GeonBit_Core_Graphics_Materials_LitMaterial_MaxLightIntensity.htm" />
   <HelpKINode Title="Load method" Url="html/M_GeonBit_ECS_GameScene_Load.htm" />
   <HelpKINode Title="LoadAll method" Url="html/M_GeonBit_Managers_Plugins_LoadAll.htm" />
   <HelpKINode Title="LoadKeysLayout method" Url="html/M_GeonBit_Managers_GameInput_LoadKeysLayout.htm" />
@@ -2081,6 +2257,8 @@
   <HelpKINode Title="MaterialAPI.DefaultSamplerState field" Url="html/F_GeonBit_Core_Graphics_Materials_MaterialAPI_DefaultSamplerState.htm" />
   <HelpKINode Title="MaterialAPI.DiffuseColor property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_DiffuseColor.htm" />
   <HelpKINode Title="MaterialAPI.Effect property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_Effect.htm" />
+  <HelpKINode Title="MaterialAPI.EffectsPath field" Url="html/F_GeonBit_Core_Graphics_Materials_MaterialAPI_EffectsPath.htm" />
+  <HelpKINode Title="MaterialAPI.EmissiveLight property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_EmissiveLight.htm" />
   <HelpKINode Title="MaterialAPI.IterateEffectPasses method" Url="html/M_GeonBit_Core_Graphics_Materials_MaterialAPI_IterateEffectPasses.htm" />
   <HelpKINode Title="MaterialAPI.LightingEnabled property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_LightingEnabled.htm" />
   <HelpKINode Title="MaterialAPI.Projection property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_Projection.htm" />
@@ -2088,13 +2266,15 @@
   <HelpKINode Title="MaterialAPI.SetBoneTransforms method" Url="html/M_GeonBit_Core_Graphics_Materials_MaterialAPI_SetBoneTransforms.htm" />
   <HelpKINode Title="MaterialAPI.SetDefaults method" Url="html/M_GeonBit_Core_Graphics_Materials_MaterialAPI_SetDefaults.htm" />
   <HelpKINode Title="MaterialAPI.SetViewProjection method" Url="html/M_GeonBit_Core_Graphics_Materials_MaterialAPI_SetViewProjection.htm" />
-  <HelpKINode Title="MaterialAPI.SmoothLighting property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_SmoothLighting.htm" />
   <HelpKINode Title="MaterialAPI.SpecularColor property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_SpecularColor.htm" />
   <HelpKINode Title="MaterialAPI.SpecularPower property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_SpecularPower.htm" />
   <HelpKINode Title="MaterialAPI.Texture property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_Texture.htm" />
   <HelpKINode Title="MaterialAPI.TextureEnabled property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_TextureEnabled.htm" />
   <HelpKINode Title="MaterialAPI.View property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_View.htm" />
+  <HelpKINode Title="MaterialAPI.ViewProjection property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_ViewProjection.htm" />
   <HelpKINode Title="MaterialAPI.World property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_World.htm" />
+  <HelpKINode Title="MaterialColors enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
+  <HelpKINode Title="MaterialDirtyFlags enumeration" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
   <HelpKINode Title="MaterialGenerator delegate" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialGenerator.htm" />
   <HelpKINode Title="MaterialOverride field">
     <HelpKINode Title="MeshEntity.MaterialOverride Field" Url="html/F_GeonBit_Core_Graphics_MeshEntity_MaterialOverride.htm" />
@@ -2118,7 +2298,6 @@
   <HelpKINode Title="MaterialOverrides.Apply method" Url="html/M_GeonBit_Core_Graphics_MaterialOverrides_Apply.htm" />
   <HelpKINode Title="MaterialOverrides.Clone method" Url="html/M_GeonBit_Core_Graphics_MaterialOverrides_Clone.htm" />
   <HelpKINode Title="MaterialOverrides.DiffuseColor property" Url="html/P_GeonBit_Core_Graphics_MaterialOverrides_DiffuseColor.htm" />
-  <HelpKINode Title="MaterialOverrides.LightingEnabled property" Url="html/P_GeonBit_Core_Graphics_MaterialOverrides_LightingEnabled.htm" />
   <HelpKINode Title="MaterialOverrides.MaterialOverrides constructor" Url="html/M_GeonBit_Core_Graphics_MaterialOverrides__ctor.htm" />
   <HelpKINode Title="MaterialOverrides.SpecularColor property" Url="html/P_GeonBit_Core_Graphics_MaterialOverrides_SpecularColor.htm" />
   <HelpKINode Title="MaterialOverrides.Texture property" Url="html/P_GeonBit_Core_Graphics_MaterialOverrides_Texture.htm" />
@@ -2129,6 +2308,8 @@
     <HelpKINode Title="ToMonoGame.Matrix Method " Url="html/M_GeonBit_Core_Physics_ToMonoGame_Matrix.htm" />
   </HelpKINode>
   <HelpKINode Title="MaxAnimationDistance field" Url="html/F_GeonBit_ECS_Components_Graphics_SkinnedModelRenderer_MaxAnimationDistance.htm" />
+  <HelpKINode Title="MaxLightIntensity property" Url="html/P_GeonBit_Core_Graphics_Materials_LitMaterial_MaxLightIntensity.htm" />
+  <HelpKINode Title="MaxLightsPerRender field" Url="html/F_GeonBit_Core_Graphics_Lights_LightsManager_MaxLightsPerRender.htm" />
   <HelpKINode Title="MaxParticlesPerSpawn property" Url="html/P_GeonBit_ECS_Components_Particles_ParticleType_MaxParticlesPerSpawn.htm" />
   <HelpKINode Title="MaxRecordsInCache field" Url="html/F_GeonBit_Managers_ConfigStorage_MaxRecordsInCache.htm" />
   <HelpKINode Title="MaxSubStep field" Url="html/F_GeonBit_Core_Physics_PhysicsWorld_MaxSubStep.htm" />
@@ -2248,7 +2429,7 @@
   </HelpKINode>
   <HelpKINode Title="NearClipPlane property" Url="html/P_GeonBit_Core_Graphics_CameraEntity_NearClipPlane.htm" />
   <HelpKINode Title="NearPlane property" Url="html/P_GeonBit_ECS_Components_Graphics_Camera_NearPlane.htm" />
-  <HelpKINode Title="Neutrals field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Neutrals.htm" />
+  <HelpKINode Title="Neutrals field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Neutrals.htm" />
   <HelpKINode Title="Node class">
     <HelpKINode Title="Node Class" Url="html/T_GeonBit_Core_Graphics_Node.htm" />
     <HelpKINode Title="about Node class" Url="html/T_GeonBit_Core_Graphics_Node.htm" />
@@ -2325,7 +2506,7 @@
   <HelpKINode Title="NodesManager.EndFrame method" Url="html/M_GeonBit_Core_Graphics_NodesManager_EndFrame.htm" />
   <HelpKINode Title="NodesManager.StartFrame method" Url="html/M_GeonBit_Core_Graphics_NodesManager_StartFrame.htm" />
   <HelpKINode Title="NodesWithEntitiesDrawCount property" Url="html/P_GeonBit_Managers_Diagnostic_NodesWithEntitiesDrawCount.htm" />
-  <HelpKINode Title="NonCharacterTargets field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_NonCharacterTargets.htm" />
+  <HelpKINode Title="NonCharacterTargets field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_NonCharacterTargets.htm" />
   <HelpKINode Title="None enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="NonPremultiplied field" Url="html/F_GeonBit_Core_Graphics_BlendStates_NonPremultiplied.htm" />
   <HelpKINode Title="NoQueue enumeration member" Url="html/T_GeonBit_Core_Graphics_RenderingQueue.htm" />
@@ -2384,7 +2565,7 @@
   <HelpKINode Title="OpenInventory enumeration member" Url="html/T_GeonBit_Input_GameKeys.htm" />
   <HelpKINode Title="OpenMap enumeration member" Url="html/T_GeonBit_Input_GameKeys.htm" />
   <HelpKINode Title="OpenMenu enumeration member" Url="html/T_GeonBit_Input_GameKeys.htm" />
-  <HelpKINode Title="OR method" Url="html/M_GeonBit_ECS_Components_Physics_CollisionGroups_OR.htm" />
+  <HelpKINode Title="OR method" Url="html/M_GeonBit_Core_Physics_CollisionGroups_OR.htm" />
   <HelpKINode Title="Orthographic enumeration member" Url="html/T_GeonBit_Core_Graphics_CameraType.htm" />
   <HelpKINode Title="OutOfRangeException class">
     <HelpKINode Title="OutOfRangeException Class" Url="html/T_GeonBit_Exceptions_OutOfRangeException.htm" />
@@ -2406,6 +2587,7 @@
     <HelpKINode Title="SoundEffect.Pan Property " Url="html/P_GeonBit_ECS_Components_Sound_SoundEffect_Pan.htm" />
     <HelpKINode Title="SoundPlayer.Pan Property " Url="html/P_GeonBit_Core_Sound_SoundPlayer_Pan.htm" />
   </HelpKINode>
+  <HelpKINode Title="ParamsVersion property" Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_ParamsVersion.htm" />
   <HelpKINode Title="Parent property">
     <HelpKINode Title="GameObject.Parent Property " Url="html/P_GeonBit_ECS_GameObject_Parent.htm" />
     <HelpKINode Title="Node.Parent Property " Url="html/P_GeonBit_Core_Graphics_Node_Parent.htm" />
@@ -2499,9 +2681,9 @@
   <HelpKINode Title="PhysicsWorld.SetGravity method" Url="html/M_GeonBit_Core_Physics_PhysicsWorld_SetGravity.htm" />
   <HelpKINode Title="PhysicsWorld.TimeFactor field" Url="html/F_GeonBit_Core_Physics_PhysicsWorld_TimeFactor.htm" />
   <HelpKINode Title="PhysicsWorld.Update method" Url="html/M_GeonBit_Core_Physics_PhysicsWorld_Update.htm" />
-  <HelpKINode Title="Pickables field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Pickables.htm" />
+  <HelpKINode Title="Pickables field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Pickables.htm" />
   <HelpKINode Title="PickBasedOnProbability method" Url="html/M_GeonBit_Core_Utils_ExtendedMath_PickBasedOnProbability.htm" />
-  <HelpKINode Title="Pickups field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Pickups.htm" />
+  <HelpKINode Title="Pickups field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Pickups.htm" />
   <HelpKINode Title="Pitch property">
     <HelpKINode Title="SoundEffect.Pitch Property " Url="html/P_GeonBit_ECS_Components_Sound_SoundEffect_Pitch.htm" />
     <HelpKINode Title="SoundPlayer.Pitch Property " Url="html/P_GeonBit_Core_Sound_SoundPlayer_Pitch.htm" />
@@ -2517,8 +2699,8 @@
     <HelpKINode Title="SpriteEntity.PlayAnimation Method " Url="html/M_GeonBit_Core_Graphics_SpriteEntity_PlayAnimation.htm" />
     <HelpKINode Title="SpriteRenderer.PlayAnimation Method " Url="html/M_GeonBit_ECS_Components_Graphics_SpriteRenderer_PlayAnimation.htm" />
   </HelpKINode>
-  <HelpKINode Title="Player field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Player.htm" />
-  <HelpKINode Title="PlayerProjectiles field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_PlayerProjectiles.htm" />
+  <HelpKINode Title="Player field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Player.htm" />
+  <HelpKINode Title="PlayerProjectiles field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_PlayerProjectiles.htm" />
   <HelpKINode Title="PlayMusic method" Url="html/M_GeonBit_Managers_SoundManager_PlayMusic.htm" />
   <HelpKINode Title="PlayOnSpawn field">
     <HelpKINode Title="BackgroundMusic.PlayOnSpawn Field" Url="html/F_GeonBit_ECS_Components_Sound_BackgroundMusic_PlayOnSpawn.htm" />
@@ -2550,6 +2732,7 @@
     <HelpKINode Title="BasicPhysicalBody.Position Property " Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_Position.htm" />
     <HelpKINode Title="Camera.Position Property " Url="html/P_GeonBit_ECS_Components_Graphics_Camera_Position.htm" />
     <HelpKINode Title="CameraEntity.Position Property " Url="html/P_GeonBit_Core_Graphics_CameraEntity_Position.htm" />
+    <HelpKINode Title="LightSource.Position Property " Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Position.htm" />
     <HelpKINode Title="Node.Position Property " Url="html/P_GeonBit_Core_Graphics_Node_Position.htm" />
   </HelpKINode>
   <HelpKINode Title="PositionRotationScale enumeration member" Url="html/T_GeonBit_Core_TransformOrder.htm" />
@@ -2557,7 +2740,7 @@
   <HelpKINode Title="PositionX property" Url="html/P_GeonBit_Core_Graphics_Node_PositionX.htm" />
   <HelpKINode Title="PositionY property" Url="html/P_GeonBit_Core_Graphics_Node_PositionY.htm" />
   <HelpKINode Title="PositionZ property" Url="html/P_GeonBit_Core_Graphics_Node_PositionZ.htm" />
-  <HelpKINode Title="PowerUps field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_PowerUps.htm" />
+  <HelpKINode Title="PowerUps field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_PowerUps.htm" />
   <HelpKINode Title="PreInit method" Url="html/M_GeonBit_GeonBitGame_PreInit.htm" />
   <HelpKINode Title="PreventOverflowY field" Url="html/F_GeonBit_ECS_Components_Misc_CameraEditorController_PreventOverflowY.htm" />
   <HelpKINode Title="Print enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
@@ -2605,6 +2788,10 @@
   <HelpKINode Title="RandColor2 method" Url="html/M_GeonBit_ECS_Components_Particles_Animators_AnimatorUtils_RandColor2.htm" />
   <HelpKINode Title="RandDirection method" Url="html/M_GeonBit_ECS_Components_Particles_Animators_AnimatorUtils_RandDirection.htm" />
   <HelpKINode Title="RandVector method" Url="html/Overload_GeonBit_ECS_Components_Particles_Animators_AnimatorUtils_RandVector.htm" />
+  <HelpKINode Title="Range property">
+    <HelpKINode Title="Light.Range Property " Url="html/P_GeonBit_ECS_Components_Graphics_Light_Range.htm" />
+    <HelpKINode Title="LightSource.Range Property " Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Range.htm" />
+  </HelpKINode>
   <HelpKINode Title="Raycast method" Url="html/Overload_GeonBit_Core_Physics_PhysicsWorld_Raycast.htm" />
   <HelpKINode Title="RaycastResults structure">
     <HelpKINode Title="RaycastResults Structure" Url="html/T_GeonBit_Core_Physics_RaycastResults.htm" />
@@ -2633,12 +2820,16 @@
   <HelpKINode Title="ReadFromFile&lt;T&gt; method" Url="html/M_GeonBit_Managers_GameFiles_ReadFromFile__1.htm" />
   <HelpKINode Title="ReadFromXmlFile(Of T) method" Url="html/M_GeonBit_Managers_GameFiles_ReadFromXmlFile__1.htm" />
   <HelpKINode Title="ReadFromXmlFile&lt;T&gt; method" Url="html/M_GeonBit_Managers_GameFiles_ReadFromXmlFile__1.htm" />
+  <HelpKINode Title="RecalcBoundingSphere method" Url="html/M_GeonBit_Core_Graphics_Lights_LightSource_RecalcBoundingSphere.htm" />
   <HelpKINode Title="ReceivedMessageFlowControl enumeration" Url="html/T_GeonBit_ECS_Components_ReceivedMessageFlowControl.htm" />
-  <HelpKINode Title="ReferenceAlpha field" Url="html/F_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_ReferenceAlpha.htm" />
+  <HelpKINode Title="ReferenceAlpha property" Url="html/P_GeonBit_Core_Graphics_Materials_AlphaTestMaterial_ReferenceAlpha.htm" />
   <HelpKINode Title="Register method" Url="html/Overload_GeonBit_Managers_Prototypes_Register.htm" />
   <HelpKINode Title="RegisterManager method" Url="html/M_GeonBit_GeonBitMain_RegisterManager.htm" />
   <HelpKINode Title="RelativeStep property" Url="html/P_GeonBit_Core_Graphics_SpriteAnimationClipPlay_RelativeStep.htm" />
-  <HelpKINode Title="Remove method" Url="html/M_GeonBit_Managers_Prototypes_Remove.htm" />
+  <HelpKINode Title="Remove method">
+    <HelpKINode Title="LightSource.Remove Method " Url="html/M_GeonBit_Core_Graphics_Lights_LightSource_Remove.htm" />
+    <HelpKINode Title="Prototypes.Remove Method " Url="html/M_GeonBit_Managers_Prototypes_Remove.htm" />
+  </HelpKINode>
   <HelpKINode Title="RemoveBody method" Url="html/M_GeonBit_Core_Physics_PhysicsWorld_RemoveBody.htm" />
   <HelpKINode Title="RemoveChildNode method" Url="html/M_GeonBit_Core_Graphics_Node_RemoveChildNode.htm" />
   <HelpKINode Title="RemoveComponent method" Url="html/M_GeonBit_ECS_GameObject_RemoveComponent.htm" />
@@ -2647,6 +2838,11 @@
     <HelpKINode Title="BaseComponent.RemoveFromParent Method " Url="html/M_GeonBit_ECS_Components_BaseComponent_RemoveFromParent.htm" />
     <HelpKINode Title="Node.RemoveFromParent Method " Url="html/M_GeonBit_Core_Graphics_Node_RemoveFromParent.htm" />
   </HelpKINode>
+  <HelpKINode Title="RemoveLight method">
+    <HelpKINode Title="ILightsManager.RemoveLight Method " Url="html/M_GeonBit_Core_Graphics_Lights_ILightsManager_RemoveLight.htm" />
+    <HelpKINode Title="LightsManager.RemoveLight Method " Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager_RemoveLight.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveShape method" Url="html/M_GeonBit_Core_Physics_CollisionShapes_CollisionCompoundShape_RemoveShape.htm" />
   <HelpKINode Title="RenderingQueue enumeration" Url="html/T_GeonBit_Core_Graphics_RenderingQueue.htm" />
   <HelpKINode Title="RenderingQueue field" Url="html/F_GeonBit_Core_Graphics_BaseRenderableEntity_RenderingQueue.htm" />
   <HelpKINode Title="RenderingQueue property">
@@ -2670,6 +2866,7 @@
   </HelpKINode>
   <HelpKINode Title="ResourcesManager.GetCustomType(Of T) method" Url="html/M_GeonBit_Core_ResourcesManager_GetCustomType__1.htm" />
   <HelpKINode Title="ResourcesManager.GetCustomType&lt;T&gt; method" Url="html/M_GeonBit_Core_ResourcesManager_GetCustomType__1.htm" />
+  <HelpKINode Title="ResourcesManager.GetEffect method" Url="html/M_GeonBit_Core_ResourcesManager_GetEffect.htm" />
   <HelpKINode Title="ResourcesManager.GetModel method" Url="html/M_GeonBit_Core_ResourcesManager_GetModel.htm" />
   <HelpKINode Title="ResourcesManager.GetSong method" Url="html/M_GeonBit_Core_ResourcesManager_GetSong.htm" />
   <HelpKINode Title="ResourcesManager.GetSound method" Url="html/M_GeonBit_Core_ResourcesManager_GetSound.htm" />
@@ -2697,21 +2894,21 @@
     <HelpKINode Title="RigidBody Class" Url="html/T_GeonBit_Core_Physics_RigidBody.htm" />
     <HelpKINode Title="about RigidBody class" Url="html/T_GeonBit_ECS_Components_Physics_RigidBody.htm" />
     <HelpKINode Title="about RigidBody class" Url="html/T_GeonBit_Core_Physics_RigidBody.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_Core_Physics_RigidBody__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_GeonBit_ECS_Components_Physics_RigidBody__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_Core_Physics_RigidBody__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_ECS_Components_Physics_RigidBody.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_RigidBody.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_ECS_Components_Physics_RigidBody.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_RigidBody.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Physics_RigidBody.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_ECS_Components_Physics_RigidBody.htm" />
   </HelpKINode>
   <HelpKINode Title="RigidBody.AngularDamping property">
-    <HelpKINode Title="RigidBody.AngularDamping Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_AngularDamping.htm" />
     <HelpKINode Title="RigidBody.AngularDamping Property " Url="html/P_GeonBit_Core_Physics_RigidBody_AngularDamping.htm" />
+    <HelpKINode Title="RigidBody.AngularDamping Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_AngularDamping.htm" />
   </HelpKINode>
   <HelpKINode Title="RigidBody.AngularFactor property">
-    <HelpKINode Title="RigidBody.AngularFactor Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_AngularFactor.htm" />
     <HelpKINode Title="RigidBody.AngularFactor Property " Url="html/P_GeonBit_Core_Physics_RigidBody_AngularFactor.htm" />
+    <HelpKINode Title="RigidBody.AngularFactor Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_AngularFactor.htm" />
   </HelpKINode>
   <HelpKINode Title="RigidBody.AngularVelocity property">
     <HelpKINode Title="RigidBody.AngularVelocity Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_AngularVelocity.htm" />
@@ -2733,12 +2930,9 @@
     <HelpKINode Title="RigidBody.BoundingBox Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_BoundingBox.htm" />
     <HelpKINode Title="RigidBody.BoundingBox Property " Url="html/P_GeonBit_Core_Physics_RigidBody_BoundingBox.htm" />
   </HelpKINode>
-  <HelpKINode Title="RigidBody.CallCollisionEnd method" Url="html/Overload_GeonBit_ECS_Components_Physics_RigidBody_CallCollisionEnd.htm" />
-  <HelpKINode Title="RigidBody.CallCollisionProcess method" Url="html/Overload_GeonBit_ECS_Components_Physics_RigidBody_CallCollisionProcess.htm" />
-  <HelpKINode Title="RigidBody.CallCollisionStart method" Url="html/Overload_GeonBit_ECS_Components_Physics_RigidBody_CallCollisionStart.htm" />
   <HelpKINode Title="RigidBody.ClearForces method">
-    <HelpKINode Title="RigidBody.ClearForces Method " Url="html/M_GeonBit_Core_Physics_RigidBody_ClearForces.htm" />
     <HelpKINode Title="RigidBody.ClearForces Method " Url="html/M_GeonBit_ECS_Components_Physics_RigidBody_ClearForces.htm" />
+    <HelpKINode Title="RigidBody.ClearForces Method " Url="html/M_GeonBit_Core_Physics_RigidBody_ClearForces.htm" />
   </HelpKINode>
   <HelpKINode Title="RigidBody.ClearVelocity method">
     <HelpKINode Title="RigidBody.ClearVelocity Method " Url="html/M_GeonBit_ECS_Components_Physics_RigidBody_ClearVelocity.htm" />
@@ -2752,15 +2946,15 @@
   <HelpKINode Title="RigidBody.CopyConditionFrom method" Url="html/M_GeonBit_Core_Physics_RigidBody_CopyConditionFrom.htm" />
   <HelpKINode Title="RigidBody.CopyNodeWorldMatrix method" Url="html/M_GeonBit_ECS_Components_Physics_RigidBody_CopyNodeWorldMatrix.htm" />
   <HelpKINode Title="RigidBody.Gravity property">
-    <HelpKINode Title="RigidBody.Gravity Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_Gravity.htm" />
     <HelpKINode Title="RigidBody.Gravity Property " Url="html/P_GeonBit_Core_Physics_RigidBody_Gravity.htm" />
+    <HelpKINode Title="RigidBody.Gravity Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_Gravity.htm" />
   </HelpKINode>
   <HelpKINode Title="RigidBody.HasCustomGravity property" Url="html/P_GeonBit_Core_Physics_RigidBody_HasCustomGravity.htm" />
   <HelpKINode Title="RigidBody.Inertia property" Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_Inertia.htm" />
   <HelpKINode Title="RigidBody.IsDirty property" Url="html/P_GeonBit_Core_Physics_RigidBody_IsDirty.htm" />
   <HelpKINode Title="RigidBody.LinearDamping property">
-    <HelpKINode Title="RigidBody.LinearDamping Property " Url="html/P_GeonBit_Core_Physics_RigidBody_LinearDamping.htm" />
     <HelpKINode Title="RigidBody.LinearDamping Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_LinearDamping.htm" />
+    <HelpKINode Title="RigidBody.LinearDamping Property " Url="html/P_GeonBit_Core_Physics_RigidBody_LinearDamping.htm" />
   </HelpKINode>
   <HelpKINode Title="RigidBody.LinearFactor property">
     <HelpKINode Title="RigidBody.LinearFactor Property " Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_LinearFactor.htm" />
@@ -2772,8 +2966,8 @@
   </HelpKINode>
   <HelpKINode Title="RigidBody.Mass property" Url="html/P_GeonBit_ECS_Components_Physics_RigidBody_Mass.htm" />
   <HelpKINode Title="RigidBody.RigidBody constructor">
-    <HelpKINode Title="RigidBody Constructor " Url="html/M_GeonBit_Core_Physics_RigidBody__ctor.htm" />
     <HelpKINode Title="RigidBody Constructor " Url="html/Overload_GeonBit_ECS_Components_Physics_RigidBody__ctor.htm" />
+    <HelpKINode Title="RigidBody Constructor " Url="html/M_GeonBit_Core_Physics_RigidBody__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="RigidBody.SetDamping method">
     <HelpKINode Title="RigidBody.SetDamping Method " Url="html/M_GeonBit_Core_Physics_RigidBody_SetDamping.htm" />
@@ -3060,7 +3254,6 @@
   <HelpKINode Title="SkyboxMaterial.SkyboxMaterial constructor" Url="html/Overload_GeonBit_Core_Graphics_Materials_SkyboxMaterial__ctor.htm" />
   <HelpKINode Title="Sleep enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="SlerpMatrix method" Url="html/M_GeonBit_Core_Graphics_SkinnedModelEntity_SlerpMatrix.htm" />
-  <HelpKINode Title="SmoothLighting property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_SmoothLighting.htm" />
   <HelpKINode Title="Solid enumeration member" Url="html/T_GeonBit_Core_Graphics_RenderingQueue.htm" />
   <HelpKINode Title="SolidBackNoCull enumeration member" Url="html/T_GeonBit_Core_Graphics_RenderingQueue.htm" />
   <HelpKINode Title="SoundEffect class">
@@ -3149,6 +3342,10 @@
   <HelpKINode Title="SpawnRandomizer.Clone method" Url="html/M_GeonBit_ECS_Components_Particles_Animators_SpawnRandomizer_Clone.htm" />
   <HelpKINode Title="SpawnRandomizer.SpawnRandomizer constructor" Url="html/M_GeonBit_ECS_Components_Particles_Animators_SpawnRandomizer__ctor.htm" />
   <HelpKINode Title="Special enumeration member" Url="html/T_GeonBit_Input_GameKeys.htm" />
+  <HelpKINode Title="Specular property">
+    <HelpKINode Title="Light.Specular Property " Url="html/P_GeonBit_ECS_Components_Graphics_Light_Specular.htm" />
+    <HelpKINode Title="LightSource.Specular Property " Url="html/P_GeonBit_Core_Graphics_Lights_LightSource_Specular.htm" />
+  </HelpKINode>
   <HelpKINode Title="SpecularColor property">
     <HelpKINode Title="MaterialAPI.SpecularColor Property " Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_SpecularColor.htm" />
     <HelpKINode Title="MaterialOverrides.SpecularColor Property " Url="html/P_GeonBit_Core_Graphics_MaterialOverrides_SpecularColor.htm" />
@@ -3277,8 +3474,30 @@
   <HelpKINode Title="StartDrawFrame method" Url="html/M_GeonBit_Core_Graphics_GraphicsManager_StartDrawFrame.htm" />
   <HelpKINode Title="StartFrame method" Url="html/M_GeonBit_Core_Graphics_NodesManager_StartFrame.htm" />
   <HelpKINode Title="StartIndex property" Url="html/P_GeonBit_Core_Graphics_SpriteAnimationClip_StartIndex.htm" />
-  <HelpKINode Title="StaticObjects field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_StaticObjects.htm" />
-  <HelpKINode Title="Statics field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Statics.htm" />
+  <HelpKINode Title="StaticBody class">
+    <HelpKINode Title="StaticBody Class" Url="html/T_GeonBit_ECS_Components_Physics_StaticBody.htm" />
+    <HelpKINode Title="StaticBody Class" Url="html/T_GeonBit_Core_Physics_StaticBody.htm" />
+    <HelpKINode Title="about StaticBody class" Url="html/T_GeonBit_Core_Physics_StaticBody.htm" />
+    <HelpKINode Title="about StaticBody class" Url="html/T_GeonBit_ECS_Components_Physics_StaticBody.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_ECS_Components_Physics_StaticBody__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_Core_Physics_StaticBody__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_ECS_Components_Physics_StaticBody.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_ECS_Components_Physics_StaticBody.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_Core_Physics_StaticBody.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_ECS_Components_Physics_StaticBody.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_Core_Physics_StaticBody.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StaticBody.Clone method" Url="html/M_GeonBit_ECS_Components_Physics_StaticBody_Clone.htm" />
+  <HelpKINode Title="StaticBody.EnableSimulation property" Url="html/P_GeonBit_Core_Physics_StaticBody_EnableSimulation.htm" />
+  <HelpKINode Title="StaticBody.IsKinematic property" Url="html/P_GeonBit_Core_Physics_StaticBody_IsKinematic.htm" />
+  <HelpKINode Title="StaticBody.IsStatic property" Url="html/P_GeonBit_Core_Physics_StaticBody_IsStatic.htm" />
+  <HelpKINode Title="StaticBody.StaticBody constructor">
+    <HelpKINode Title="StaticBody Constructor " Url="html/Overload_GeonBit_ECS_Components_Physics_StaticBody__ctor.htm" />
+    <HelpKINode Title="StaticBody Constructor " Url="html/M_GeonBit_Core_Physics_StaticBody__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StaticBody.WorldTransform property" Url="html/P_GeonBit_Core_Physics_StaticBody_WorldTransform.htm" />
+  <HelpKINode Title="StaticObjects field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_StaticObjects.htm" />
+  <HelpKINode Title="Statics field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Statics.htm" />
   <HelpKINode Title="Stop method">
     <HelpKINode Title="BackgroundMusic.Stop Method " Url="html/M_GeonBit_ECS_Components_Sound_BackgroundMusic_Stop.htm" />
     <HelpKINode Title="SoundEffect.Stop Method " Url="html/M_GeonBit_ECS_Components_Sound_SoundEffect_Stop.htm" />
@@ -3289,15 +3508,16 @@
   <HelpKINode Title="Subtract enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="T enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="Tab enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
-  <HelpKINode Title="Targets field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionMasks_Targets.htm" />
+  <HelpKINode Title="Targets field" Url="html/F_GeonBit_Core_Physics_CollisionMasks_Targets.htm" />
   <HelpKINode Title="Terrain enumeration member" Url="html/T_GeonBit_Core_Graphics_RenderingQueue.htm" />
-  <HelpKINode Title="Terrain field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Terrain.htm" />
+  <HelpKINode Title="Terrain field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Terrain.htm" />
   <HelpKINode Title="Texture field" Url="html/F_GeonBit_ECS_Components_Graphics_SceneBackground_Texture.htm" />
   <HelpKINode Title="Texture property">
     <HelpKINode Title="MaterialAPI.Texture Property " Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_Texture.htm" />
     <HelpKINode Title="MaterialOverrides.Texture Property " Url="html/P_GeonBit_Core_Graphics_MaterialOverrides_Texture.htm" />
   </HelpKINode>
   <HelpKINode Title="TextureEnabled property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_TextureEnabled.htm" />
+  <HelpKINode Title="TextureParams enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
   <HelpKINode Title="TexturePath property" Url="html/P_GeonBit_ECS_Components_Graphics_SkyBox_TexturePath.htm" />
   <HelpKINode Title="Tiled enumeration member" Url="html/T_GeonBit_ECS_Components_Graphics_BackgroundDrawMode.htm" />
   <HelpKINode Title="TileMap class">
@@ -3424,7 +3644,7 @@
   <HelpKINode Title="TriangleInfo.ShapeType property" Url="html/P_GeonBit_ECS_Components_Physics_TriangleInfo_ShapeType.htm" />
   <HelpKINode Title="TriangleInfo.TriangleInfo constructor" Url="html/M_GeonBit_ECS_Components_Physics_TriangleInfo__ctor.htm" />
   <HelpKINode Title="Trigger method" Url="html/M_GeonBit_ECS_GameObject_Trigger.htm" />
-  <HelpKINode Title="Triggers field" Url="html/F_GeonBit_ECS_Components_Physics_CollisionGroups_Triggers.htm" />
+  <HelpKINode Title="Triggers field" Url="html/F_GeonBit_Core_Physics_CollisionGroups_Triggers.htm" />
   <HelpKINode Title="U enumeration member" Url="html/T_GeonBit_Input_KeyboardKeys.htm" />
   <HelpKINode Title="UiEnabled property">
     <HelpKINode Title="GeonBitGame.UiEnabled Property " Url="html/P_GeonBit_GeonBitGame_UiEnabled.htm" />
@@ -3454,8 +3674,8 @@
     <HelpKINode Title="GameScene.Update Method " Url="html/M_GeonBit_ECS_GameScene_Update.htm" />
     <HelpKINode Title="GeonBitGame.Update Method " Url="html/M_GeonBit_GeonBitGame_Update.htm" />
     <HelpKINode Title="GeonBitMain.Update Method " Url="html/M_GeonBit_GeonBitMain_Update.htm" />
-    <HelpKINode Title="GraphicsManager.Update Method " Url="html/M_GeonBit_Core_Graphics_GraphicsManager_Update.htm" />
     <HelpKINode Title="GraphicsManager.Update Method " Url="html/M_GeonBit_Managers_GraphicsManager_Update.htm" />
+    <HelpKINode Title="GraphicsManager.Update Method " Url="html/M_GeonBit_Core_Graphics_GraphicsManager_Update.htm" />
     <HelpKINode Title="IManager.Update Method " Url="html/M_GeonBit_Managers_IManager_Update.htm" />
     <HelpKINode Title="PhysicsWorld.Update Method " Url="html/M_GeonBit_Core_Physics_PhysicsWorld_Update.htm" />
     <HelpKINode Title="Plugins.Update Method " Url="html/M_GeonBit_Managers_Plugins_Update.htm" />
@@ -3469,7 +3689,12 @@
   <HelpKINode Title="UpdateBoundingBox method" Url="html/M_GeonBit_Core_Graphics_Node_UpdateBoundingBox.htm" />
   <HelpKINode Title="UpdateBoundingSphere method" Url="html/M_GeonBit_Core_Graphics_Node_UpdateBoundingSphere.htm" />
   <HelpKINode Title="UpdateCameraView method" Url="html/M_GeonBit_ECS_Components_Graphics_Camera_UpdateCameraView.htm" />
+  <HelpKINode Title="UpdateLightTransform method">
+    <HelpKINode Title="ILightsManager.UpdateLightTransform Method " Url="html/M_GeonBit_Core_Graphics_Lights_ILightsManager_UpdateLightTransform.htm" />
+    <HelpKINode Title="LightsManager.UpdateLightTransform Method " Url="html/M_GeonBit_Core_Graphics_Lights_LightsManager_UpdateLightTransform.htm" />
+  </HelpKINode>
   <HelpKINode Title="UpdateTransformations method" Url="html/M_GeonBit_Core_Graphics_Node_UpdateTransformations.htm" />
+  <HelpKINode Title="UpdateTransforms method" Url="html/M_GeonBit_Core_Graphics_Lights_LightSource_UpdateTransforms.htm" />
   <HelpKINode Title="UpdateViewPosition method" Url="html/M_GeonBit_Core_Graphics_CameraEntity_UpdateViewPosition.htm" />
   <HelpKINode Title="UpdateWhenNotVisible field" Url="html/F_GeonBit_ECS_GameObject_UpdateWhenNotVisible.htm" />
   <HelpKINode Title="UseCameraAsListener field" Url="html/F_GeonBit_ECS_Components_Sound_SoundEffect_UseCameraAsListener.htm" />
@@ -3503,9 +3728,11 @@
     <HelpKINode Title="CameraEntity.ViewFrustum Property " Url="html/P_GeonBit_Core_Graphics_CameraEntity_ViewFrustum.htm" />
   </HelpKINode>
   <HelpKINode Title="ViewportSize property">
-    <HelpKINode Title="GraphicsManager.ViewportSize Property " Url="html/P_GeonBit_Managers_GraphicsManager_ViewportSize.htm" />
     <HelpKINode Title="GraphicsManager.ViewportSize Property " Url="html/P_GeonBit_Core_Graphics_GraphicsManager_ViewportSize.htm" />
+    <HelpKINode Title="GraphicsManager.ViewportSize Property " Url="html/P_GeonBit_Managers_GraphicsManager_ViewportSize.htm" />
   </HelpKINode>
+  <HelpKINode Title="ViewProjection property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_ViewProjection.htm" />
+  <HelpKINode Title="Visible field" Url="html/F_GeonBit_Core_Graphics_Lights_LightSource_Visible.htm" />
   <HelpKINode Title="Visible property">
     <HelpKINode Title="BaseRenderableEntity.Visible Property " Url="html/P_GeonBit_Core_Graphics_BaseRenderableEntity_Visible.htm" />
     <HelpKINode Title="GameObject.Visible Property " Url="html/P_GeonBit_ECS_GameObject_Visible.htm" />
@@ -3525,6 +3752,7 @@
   <HelpKINode Title="WasDrawnThisFrame property" Url="html/P_GeonBit_Core_Graphics_Node_WasDrawnThisFrame.htm" />
   <HelpKINode Title="Wireframe enumeration member" Url="html/T_GeonBit_Core_Graphics_RenderingQueue.htm" />
   <HelpKINode Title="WireFrame property" Url="html/P_GeonBit_Core_Graphics_BaseRenderableEntity_WireFrame.htm" />
+  <HelpKINode Title="World enumeration member" Url="html/T_GeonBit_Core_Graphics_Materials_MaterialDirtyFlags.htm" />
   <HelpKINode Title="World property" Url="html/P_GeonBit_Core_Graphics_Materials_MaterialAPI_World.htm" />
   <HelpKINode Title="WorldPosition property" Url="html/P_GeonBit_Core_Graphics_Node_WorldPosition.htm" />
   <HelpKINode Title="WorldRotation property" Url="html/P_GeonBit_Core_Graphics_Node_WorldRotation.htm" />
@@ -3533,6 +3761,7 @@
     <HelpKINode Title="BasePhysicsComponent.WorldTransform Property " Url="html/P_GeonBit_ECS_Components_Physics_BasePhysicsComponent_WorldTransform.htm" />
     <HelpKINode Title="BasicPhysicalBody.WorldTransform Property " Url="html/P_GeonBit_Core_Physics_BasicPhysicalBody_WorldTransform.htm" />
     <HelpKINode Title="KinematicBody.WorldTransform Property " Url="html/P_GeonBit_Core_Physics_KinematicBody_WorldTransform.htm" />
+    <HelpKINode Title="StaticBody.WorldTransform Property " Url="html/P_GeonBit_Core_Physics_StaticBody_WorldTransform.htm" />
   </HelpKINode>
   <HelpKINode Title="WorldTransformations property" Url="html/P_GeonBit_Core_Graphics_Node_WorldTransformations.htm" />
   <HelpKINode Title="WrapAngle method" Url="html/M_GeonBit_Core_Utils_ExtendedMath_WrapAngle.htm" />
